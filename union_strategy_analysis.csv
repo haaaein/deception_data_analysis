@@ -1,0 +1,769 @@
+argument_id,final_strategy,strategy_count
+0,"['Flawed Reasoning' 'Misusing Evidence' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Appealing to Emotion' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+1,"['Misusing Evidence' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+2,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+3,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+4,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+5,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+6,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases']",6
+7,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+8,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+9,"['Flawed Reasoning' 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+10,"['Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Appealing to Emotion' 'Misusing Evidence' 'Misrepresenting Authority']",6
+11,"['Misusing Evidence' 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Exploiting Social Biases' 'Flawed Reasoning'
+ 'Manipulative Language']",7
+12,"['Flawed Reasoning' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+13,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Misrepresenting Authority']",6
+14,"['Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+15,"['Distorting the Argument' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Misusing Evidence' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+16,"['Misusing Evidence' 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Appealing to Emotion']",6
+17,"['Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+18,"['Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+19,"['Flawed Reasoning' 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases']",6
+20,"['Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+21,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+22,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+23,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+24,"['Misrepresenting Authority' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+25,"['Distorting the Argument' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+26,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+27,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+28,"['Distorting the Argument' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+29,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+30,"['Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+31,"['Distorting the Argument' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+32,"['Misrepresenting Authority' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Misusing Evidence' 'Exploiting Social Biases']",6
+33,"['Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority']",6
+34,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+35,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+36,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+37,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+38,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+39,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+40,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Manipulative Language'
+ 'Exploiting Social Biases']",6
+41,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases']",6
+42,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+43,"['Misrepresenting Authority' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+44,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+45,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+46,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Exploiting Social Biases']",6
+47,"['Misrepresenting Authority' 'Distorting the Argument' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+48,"['Distorting the Argument' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+49,"['Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Manipulative Language']",7
+50,"['Appealing to Emotion' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+51,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+52,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+53,"['Distorting the Argument' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+54,"['Misusing Evidence' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+55,"['Appealing to Emotion' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Distorting the Argument' 'Exploiting Social Biases']",6
+56,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority' 'Manipulative Language']",7
+57,"['Misusing Evidence' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+58,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+59,"['Distorting the Argument' 'Appealing to Emotion' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Manipulative Language']",6
+60,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Manipulative Language']",7
+61,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Manipulative Language']",7
+62,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+63,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+64,"['Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+65,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+66,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence'
+ 'Misrepresenting Authority']",6
+67,"['Distorting the Argument' 'Appealing to Emotion' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+68,"['Misrepresenting Authority' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+69,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+70,"['Distorting the Argument' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+71,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misusing Evidence' 'Manipulative Language' 'Exploiting Social Biases']",6
+72,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+73,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language' 'Misrepresenting Authority']",7
+74,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+75,"['Distorting the Argument' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Manipulative Language' 'Exploiting Social Biases']",6
+76,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+77,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Manipulative Language']",7
+78,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+79,"['Misusing Evidence' 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+80,"['Flawed Reasoning' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+81,"['Distorting the Argument' 'Appealing to Emotion' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+82,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+83,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+84,"['Distorting the Argument' 'Misrepresenting Authority' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+85,"['Distorting the Argument' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+86,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+87,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+88,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Appealing to Emotion' 'Manipulative Language']",6
+89,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases']",6
+90,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Exploiting Social Biases']",6
+91,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+92,"['Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+93,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+94,"['Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+95,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+96,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+97,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+98,"['Misusing Evidence' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+99,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Flawed Reasoning' 'Manipulative Language']",6
+100,"['Appealing to Emotion' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+101,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+102,"['Distorting the Argument' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+103,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Manipulative Language']",6
+104,"['Distorting the Argument' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Manipulative Language']",7
+105,"['Distorting the Argument' 'Appealing to Emotion' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Exploiting Social Biases' 'Flawed Reasoning'
+ 'Manipulative Language']",7
+106,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+107,"['Appealing to Emotion' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases']",6
+108,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+109,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+110,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Misrepresenting Authority' 'Manipulative Language']",7
+111,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+112,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Appealing to Emotion']",6
+113,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Exploiting Social Biases']",6
+114,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Manipulative Language']",7
+115,"['Distorting the Argument' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases']",6
+116,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",6
+117,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+118,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+119,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+120,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Distorting the Argument'
+ 'Misrepresenting Authority']",6
+121,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+122,"['Distorting the Argument' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Exploiting Social Biases' 'Flawed Reasoning'
+ 'Manipulative Language']",7
+123,"['Distorting the Argument' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+124,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+125,"['Flawed Reasoning' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+126,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+127,"['Misusing Evidence' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",6
+128,"['Misusing Evidence' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Exploiting Social Biases']",5
+129,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+130,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Misusing Evidence']",5
+131,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+132,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Exploiting Social Biases']",5
+133,"['Misusing Evidence' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Appealing to Emotion' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+134,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+135,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+136,"['Appealing to Emotion' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+137,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+138,"['Distorting the Argument' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Manipulative Language']",7
+139,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+140,"['Misrepresenting Authority' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+141,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+142,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases']",6
+143,"['Distorting the Argument' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Manipulative Language' 'Exploiting Social Biases']",6
+144,"['Misusing Evidence' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+145,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+146,"['Flawed Reasoning' 'Misusing Evidence' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+147,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+148,"['Misusing Evidence' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Distorting the Argument' 'Manipulative Language']",7
+149,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+150,"['Flawed Reasoning' 'Appealing to Emotion' 'Misusing Evidence'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Manipulative Language' 'Exploiting Social Biases']",7
+151,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+152,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+153,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+154,"['Distorting the Argument' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+155,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+156,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Manipulative Language']",5
+157,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+158,"['Appealing to Emotion' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+159,"['Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority']",6
+160,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases']",6
+161,"['Appealing to Emotion' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Exploiting Social Biases' 'Misusing Evidence']",6
+162,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+163,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Distorting the Argument' 'Manipulative Language'
+ 'Misrepresenting Authority']",6
+164,"['Distorting the Argument' 'Appealing to Emotion' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Flawed Reasoning' 'Manipulative Language']",6
+165,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+166,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+167,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+168,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+169,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases']",6
+170,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+171,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+172,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+173,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+174,"['Appealing to Emotion' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+175,"['Flawed Reasoning' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Appealing to Emotion']",6
+176,"['Misusing Evidence' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+177,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+178,"['Misrepresenting Authority' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Manipulative Language']",7
+179,"['Misusing Evidence' 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+180,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+181,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+182,"['Misusing Evidence' 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Flawed Reasoning'
+ 'Manipulative Language']",7
+183,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",6
+184,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+185,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases']",6
+186,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases' 'Misusing Evidence'
+ 'Manipulative Language']",7
+187,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Misrepresenting Authority']",6
+188,"['Misrepresenting Authority' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+189,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Misrepresenting Authority'
+ 'Appealing to Emotion']",6
+190,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+191,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+192,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Exploiting Social Biases']",6
+193,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+194,"['Distorting the Argument' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+195,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",6
+196,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+197,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Manipulative Language' 'Exploiting Social Biases']",6
+198,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+199,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Flawed Reasoning' 'Manipulative Language']",6
+200,"['Appealing to Emotion' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+201,"['Misusing Evidence' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+202,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Misrepresenting Authority']",6
+203,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+204,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+205,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases']",6
+206,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+207,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+208,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Exploiting Social Biases' 'Flawed Reasoning'
+ 'Manipulative Language']",7
+209,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+210,"['Distorting the Argument' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+211,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+212,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Manipulative Language']",7
+213,"['Distorting the Argument' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+214,"['Distorting the Argument' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+215,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+216,"['Distorting the Argument' 'Misrepresenting Authority' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+217,"['Misusing Evidence' 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Appealing to Emotion'
+ 'Manipulative Language']",7
+218,"['Appealing to Emotion' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+219,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+220,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Manipulative Language']",6
+221,"['Misrepresenting Authority' 'Appealing to Emotion' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Distorting the Argument'
+ 'Manipulative Language']",7
+222,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence']",6
+223,"['Flawed Reasoning' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+224,"['Distorting the Argument' 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Manipulative Language'
+ 'Exploiting Social Biases']",7
+225,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+226,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+227,"['Misusing Evidence' 'Misrepresenting Authority' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+228,"['Appealing to Emotion' 'Flawed Reasoning' 'Misrepresenting Authority'
+ 'Misusing Evidence' 'Distorting the Argument' 'Exploiting Social Biases']",6
+229,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Manipulative Language' 'Exploiting Social Biases']",6
+230,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+231,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+232,"['Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Manipulative Language']",6
+233,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+234,"['Misusing Evidence' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+235,"['Misrepresenting Authority' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+236,"['Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Manipulative Language' 'Exploiting Social Biases']",7
+237,"['Misusing Evidence' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Distorting the Argument'
+ 'Manipulative Language']",7
+238,"['Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+239,"['Misusing Evidence' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+240,"['Flawed Reasoning' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Misusing Evidence' 'Appealing to Emotion' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+241,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+242,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+243,"['Appealing to Emotion' 'Flawed Reasoning' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+244,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Appealing to Emotion' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+245,"['Misusing Evidence' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language']",6
+246,"['Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases']",6
+247,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Misusing Evidence' 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+248,"['Appealing to Emotion' 'Misusing Evidence' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Flawed Reasoning' 'Manipulative Language']",6
+249,"['Appealing to Emotion' 'Distorting the Argument' 'Flawed Reasoning'
+ 'Misrepresenting Authority' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+250,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language']",6
+251,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Manipulative Language']",6
+252,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Misusing Evidence']",5
+253,"['Misrepresenting Authority' 'Misusing Evidence' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+254,"['Misusing Evidence' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+255,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+256,"['Distorting the Argument' 'Appealing to Emotion'
+ 'Exploiting Social Biases' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Misrepresenting Authority']",6
+257,"['Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Appealing to Emotion' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+258,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Exploiting Social Biases']",5
+259,"['Distorting the Argument' 'Flawed Reasoning' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Misusing Evidence']",6
+260,"['Misusing Evidence' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Flawed Reasoning' 'Exploiting Social Biases' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+261,"['Misusing Evidence' 'Distorting the Argument' 'Misrepresenting Authority'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+262,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+263,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Misusing Evidence' 'Exploiting Social Biases']",5
+264,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misusing Evidence' 'Misrepresenting Authority'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+265,"['Flawed Reasoning' 'Appealing to Emotion' 'Distorting the Argument'
+ 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Misrepresenting Authority']",6
+266,"['Flawed Reasoning' 'Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases']",6
+267,"['Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Distorting the Argument' 'Exploiting Social Biases'
+ 'Manipulative Language']",6
+268,"['Appealing to Emotion' 'Distorting the Argument'
+ 'Misrepresenting Authority' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+269,"['Misrepresenting Authority' 'Distorting the Argument'
+ 'Appealing to Emotion' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+270,"['Appealing to Emotion' 'Distorting the Argument' 'Misusing Evidence'
+ 'Flawed Reasoning' 'Misrepresenting Authority' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+271,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases']",6
+272,"['Flawed Reasoning' 'Appealing to Emotion' 'Exploiting Social Biases'
+ 'Distorting the Argument' 'Misusing Evidence' 'Manipulative Language'
+ 'Misrepresenting Authority']",7
+273,"['Flawed Reasoning' 'Distorting the Argument' 'Appealing to Emotion'
+ 'Manipulative Language' 'Exploiting Social Biases' 'Misusing Evidence']",6
+274,"['Flawed Reasoning' 'Misrepresenting Authority' 'Appealing to Emotion'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+275,"['Appealing to Emotion' 'Misrepresenting Authority'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+276,"['Appealing to Emotion' 'Misrepresenting Authority' 'Flawed Reasoning'
+ 'Distorting the Argument' 'Misusing Evidence' 'Exploiting Social Biases'
+ 'Manipulative Language']",7
+277,"['Distorting the Argument' 'Appealing to Emotion'
+ 'Misrepresenting Authority' 'Misusing Evidence' 'Flawed Reasoning'
+ 'Exploiting Social Biases' 'Manipulative Language']",7
+278,"['Flawed Reasoning' 'Distorting the Argument' 'Misusing Evidence'
+ 'Exploiting Social Biases' 'Appealing to Emotion' 'Manipulative Language']",6
+279,"['Appealing to Emotion' 'Misrepresenting Authority' 'Misusing Evidence'
+ 'Distorting the Argument' 'Flawed Reasoning' 'Exploiting Social Biases']",6

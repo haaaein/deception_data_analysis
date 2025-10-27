@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deceptive Taxonomy Viewer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: #fafafa;
+        min-height: 100vh;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: #1a1a1a;
+        line-height: 1.5;
+      }
+      .main-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        padding: 48px;
+        max-width: 1200px;
+        border: 1px solid #e5e5e5;
+      }
+      .model-card {
+        background: white;
+        border-radius: 8px;
+        padding: 24px;
+        margin-bottom: 24px;
+        border: 1px solid #e5e5e5;
+        transition: all 0.2s ease;
+      }
+      .model-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-color: #d0d0d0;
+      }
+      .version-card {
+        background: #f8f9fa;
+        border-radius: 6px;
+        padding: 16px;
+        margin-bottom: 12px;
+        border: 1px solid #e9ecef;
+        transition: all 0.2s ease;
+      }
+      .version-card:hover {
+        background: #e9ecef;
+      }
+      .model-title {
+        color: #1a1a1a;
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .model-description {
+        color: #666;
+        font-size: 0.875rem;
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+      .version-title {
+        color: #1a1a1a;
+        font-weight: 500;
+        font-size: 0.875rem;
+        margin-bottom: 4px;
+      }
+      .version-meta {
+        color: #888;
+        font-size: 0.75rem;
+        margin-bottom: 12px;
+      }
+      .view-btn {
+        background: #1a1a1a;
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.75rem;
+        transition: all 0.2s ease;
+        display: inline-block;
+      }
+      .view-btn:hover {
+        background: #333;
+        color: white;
+      }
+      .integrated-btn {
+        background: #10a37f;
+        padding: 12px 24px;
+        font-size: 0.875rem;
+      }
+      .integrated-btn:hover {
+        background: #0d8c6a;
+      }
+      .header-section {
+        text-align: center;
+        margin-bottom: 48px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      .main-title {
+        color: #1a1a1a;
+        font-weight: 700;
+        font-size: 2.25rem;
+        margin-bottom: 12px;
+        letter-spacing: -0.02em;
+      }
+      .main-subtitle {
+        color: #666;
+        font-size: 1.125rem;
+        margin-bottom: 0;
+        font-weight: 400;
+      }
+      .integrated-card {
+        border-left: 4px solid #10a37f;
+        background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      }
+      .section-title {
+        color: #1a1a1a;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-bottom: 24px;
+        letter-spacing: -0.01em;
+      }
+      .model-badge {
+        background: #f1f5f9;
+        color: #475569;
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .gemini-badge { background: #dbeafe; color: #1e40af; }
+      .o4mini-badge { background: #fef3c7; color: #92400e; }
+      .deepseek-badge { background: #e0e7ff; color: #5b21b6; }
+      .integrated-badge {
+        background: #dcfce7;
+        color: #166534;
+      }
+      .stats-info {
+        background: #f8f9fa;
+        border-radius: 6px;
+        padding: 12px;
+        margin-top: 12px;
+        font-size: 0.75rem;
+        color: #666;
+      }
+      .model-icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: white;
+      }
+      .gemini-icon { background: #1e40af; }
+      .o4mini-icon { background: #92400e; }
+      .deepseek-icon { background: #5b21b6; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <!-- Header Section -->
+        <div class="header-section">
+          <h1 class="main-title">
+            Deceptive Persuasion Taxonomy Data Viewer
+          </h1>
+          <p class="main-subtitle">
+            LLM의 기만적 설득 기법을 분류하기 위한 연구 데이터입니다
+          </p>
+        </div>
+
+        <!-- Final Taxonomy Section -->
+        <div class="row">
+          <div class="col-12">
+            <h3 class="section-title">
+              <i class="fas fa-sitemap me-2"></i>
+              최종 Taxonomy
+            </h3>
+            <div class="model-card" style="border-left: 4px solid #8b5cf6; background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);">
+              <div class="row align-items-center">
+                <div class="col-md-8">
+                  <h4 class="model-title">
+                    <i class="fas fa-sitemap me-2"></i>
+                    기만적 설득 기법 최종 분류체계 & 시각화
+                  </h4>
+                  <p class="model-description">
+                    92개의 개별 전략을 8개의 핵심 카테고리로 체계화한 최종 taxonomy와 
+                    모델별 전략 다양성, 카테고리 분포를 시각적으로 분석할 수 있습니다.
+                  </p>
+                  <span class="model-badge" style="background: #e0e7ff; color: #5b21b6;">
+                    8개 핵심 카테고리 + 데이터 시각화
+                  </span>
+                  <div class="stats-info">
+                    <i class="fas fa-info-circle me-1"></i>
+                    감정 조작 | 증거 왜곡 | 권위 오용 | 추론 오류 | 논점 전환 | 프레이밍 | 사회적 통념 | 불확실성 전략
+                  </div>
+                </div>
+                <div class="col-md-4 text-end">
+                  <a href="/taxonomy" class="view-btn" style="background: #8b5cf6; color: white; padding: 12px 24px; font-size: 0.875rem;">
+                    <i class="fas fa-chart-pie me-2"></i>
+                    Taxonomy & 시각화 보기
+                  </a>
+                  <!-- 네트워크 분석 버튼 - 상관관계 분석 보완 후 활성화 예정
+                  <a href="/network_analysis" class="view-btn" style="background: #1a1a1a; color: white; padding: 12px 24px; font-size: 0.875rem; margin-left: 8px;">
+                    <i class="fas fa-project-diagram me-2"></i>
+                    네트워크 분석
+                  </a>
+                  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Integrated Dataset Section -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <h3 class="section-title">
+              <i class="fas fa-database me-2"></i>
+              통합 데이터셋
+            </h3>
+            <div class="model-card integrated-card">
+              <div class="row align-items-center">
+                <div class="col-md-8">
+                  <h4 class="model-title">
+                    <i class="fas fa-layer-group me-2"></i>
+                    All Models Integrated Dataset
+                  </h4>
+                  <p class="model-description">
+                    Gemini 2.5 Pro, o4-mini, DeepSeek-R1 세 모델의 모든 분류 결과를 통합한 데이터셋입니다. 
+                    전략별로 모든 예시와 출처를 확인할 수 있습니다.
+                  </p>
+                  <span class="model-badge integrated-badge">
+                    통합 데이터
+                  </span>
+                  <div class="stats-info">
+                    <i class="fas fa-info-circle me-1"></i>
+                    3개 모델 × 5개 버전 = 15개 데이터셋 통합 | 총 92개 고유 전략 | 439개 예시
+                  </div>
+                </div>
+                <div class="col-md-4 text-end">
+                  <a href="/integrated" class="view-btn integrated-btn">
+                    <i class="fas fa-eye me-2"></i>
+                    통합 데이터 보기
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Models Section -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <h3 class="section-title">
+              <i class="fas fa-robot me-2"></i>
+              모델별 분류 결과
+            </h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Gemini 2.5 Pro -->
+          <div class="col-lg-4">
+            <div class="model-card">
+              <h4 class="model-title">
+                <span class="model-icon gemini-icon">G</span>
+                Gemini 2.5 Pro
+              </h4>
+              <p class="model-description">
+                Google의 언어 모델로 생성된 기만적 설득 전략 분류 결과입니다.
+              </p>
+              <span class="model-badge gemini-badge">Google AI</span>
+              
+              <div class="mt-3">
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 1</div>
+                      <div class="version-meta">2025-06-25 09:54</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/gemini-2.5-pro/v1" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 2</div>
+                      <div class="version-meta">2025-06-25 13:20</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/gemini-2.5-pro/v2" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 3</div>
+                      <div class="version-meta">2025-06-27 14:38</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/gemini-2.5-pro/v3" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 4</div>
+                      <div class="version-meta">2025-06-27 18:26</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/gemini-2.5-pro/v4" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 5</div>
+                      <div class="version-meta">2025-06-27 20:51</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/gemini-2.5-pro/v5" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- o4-mini -->
+          <div class="col-lg-4">
+            <div class="model-card">
+              <h4 class="model-title">
+                <span class="model-icon o4mini-icon">O</span>
+                o4-mini
+              </h4>
+              <p class="model-description">
+                OpenAI의 언어 모델로 생성된 기만적 설득 전략 분류 결과입니다.
+              </p>
+              <span class="model-badge o4mini-badge">OpenAI</span>
+              
+              <div class="mt-3">
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 1</div>
+                      <div class="version-meta">2025-07-07 18:52</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/o4-mini/v1" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 2</div>
+                      <div class="version-meta">2025-07-07 18:58</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/o4-mini/v2" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 3</div>
+                      <div class="version-meta">2025-07-07 19:03</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/o4-mini/v3" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 4</div>
+                      <div class="version-meta">2025-07-07 19:10</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/o4-mini/v4" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 5</div>
+                      <div class="version-meta">2025-07-07 22:58</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/o4-mini/v5" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DeepSeek-R1 -->
+          <div class="col-lg-4">
+            <div class="model-card">
+              <h4 class="model-title">
+                <span class="model-icon deepseek-icon">D</span>
+                DeepSeek-R1
+              </h4>
+              <p class="model-description">
+                DeepSeek의 언어 모델로 생성된 기만적 설득 전략 분류 결과입니다.
+              </p>
+              <span class="model-badge deepseek-badge">DeepSeek AI</span>
+              
+              <div class="mt-3">
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 1</div>
+                      <div class="version-meta">2025-07-07 23:45</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/deepseek-r1/v1" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 2</div>
+                      <div class="version-meta">2025-07-07 23:55</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/deepseek-r1/v2" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 3</div>
+                      <div class="version-meta">2025-07-08 00:13</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/deepseek-r1/v3" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 4</div>
+                      <div class="version-meta">2025-07-08 00:25</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/deepseek-r1/v4" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="version-card">
+                  <div class="row align-items-center">
+                    <div class="col-8">
+                      <div class="version-title">Version 5</div>
+                      <div class="version-meta">2025-07-08 07:27</div>
+                    </div>
+                    <div class="col-4 text-end">
+                      <a href="/model/deepseek-r1/v5" class="view-btn">보기</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

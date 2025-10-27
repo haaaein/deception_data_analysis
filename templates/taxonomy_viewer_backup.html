@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기만적 설득 기법 최종 Taxonomy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+    <style>
+      body {
+        background: #fafafa;
+        min-height: 100vh;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: #1a1a1a;
+        line-height: 1.5;
+      }
+      .main-container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 32px;
+        border: 1px solid #e5e5e5;
+      }
+      .main-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        margin-top: 24px;
+      }
+      .categories-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      .category-card {
+        background: white;
+        border-radius: 8px;
+        padding: 16px;
+        border: 1px solid #e5e5e5;
+        transition: all 0.3s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+        height: fit-content;
+      }
+      .category-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        transform: translateY(-1px);
+      }
+      .category-header {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      .category-title {
+        color: #1a1a1a;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+      .category-description {
+        color: #555;
+        font-size: 0.8rem;
+        line-height: 1.4;
+        margin-bottom: 12px;
+        padding: 12px;
+        background: #f8f9fa;
+        border-radius: 6px;
+        border-left: 3px solid currentColor;
+      }
+      .strategies-container {
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+      .strategies-container.collapsed {
+        max-height: 0;
+        padding: 0;
+        margin: 0;
+      }
+      .strategy-item {
+        background: #f8f9fa;
+        border-radius: 4px;
+        padding: 6px 10px;
+        margin-bottom: 4px;
+        border: 1px solid #e9ecef;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.2s ease;
+      }
+      .strategy-item:hover {
+        background: #e9ecef;
+        border-color: #dee2e6;
+      }
+      .strategy-name {
+        font-weight: 500;
+        color: #1a1a1a;
+        flex: 1;
+        font-size: 0.8rem;
+        line-height: 1.3;
+      }
+      .toggle-btn {
+        background: none;
+        border: none;
+        color: #6c757d;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 8px;
+        border-radius: 6px;
+      }
+      .toggle-btn:hover {
+        background: #f8f9fa;
+        color: #495057;
+      }
+      .toggle-btn.collapsed {
+        transform: rotate(-90deg);
+      }
+      .back-btn {
+        background: white;
+        border: 1px solid #e5e5e5;
+        color: #1a1a1a;
+        padding: 8px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.875rem;
+        transition: all 0.2s ease;
+        display: inline-block;
+      }
+      .back-btn:hover {
+        background: #f5f5f5;
+        color: #1a1a1a;
+        border-color: #d0d0d0;
+      }
+      .loading {
+        text-align: center;
+        padding: 50px;
+        color: #546e7a;
+      }
+      .category-stats {
+        font-size: 0.85rem;
+        color: #6c757d;
+        margin-left: auto;
+        padding: 4px 12px;
+        background: #f8f9fa;
+        border-radius: 12px;
+      }
+      
+      /* 카테고리별 색상 - 검정색으로 통일 */
+      .category-1 { border-left-color: #1a1a1a; }
+      .category-1 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-2 { border-left-color: #1a1a1a; }
+      .category-2 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-3 { border-left-color: #1a1a1a; }
+      .category-3 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-4 { border-left-color: #1a1a1a; }
+      .category-4 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-5 { border-left-color: #1a1a1a; }
+      .category-5 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-6 { border-left-color: #1a1a1a; }
+      .category-6 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-7 { border-left-color: #1a1a1a; }
+      .category-7 .category-description { border-left-color: #1a1a1a; }
+      
+      .category-8 { border-left-color: #1a1a1a; }
+      .category-8 .category-description { border-left-color: #1a1a1a;       }
+
+      /* 전략 설명 모달 스타일 */
+      .strategy-modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        backdrop-filter: blur(5px);
+      }
+
+      .strategy-modal-content {
+        background-color: #fefefe;
+        margin: 5% auto;
+        padding: 0;
+        border-radius: 12px;
+        width: 90%;
+        max-width: 600px;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        animation: modalFadeIn 0.3s ease-out;
+      }
+
+      @keyframes modalFadeIn {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .strategy-modal-header {
+        padding: 24px 24px 16px;
+        border-bottom: 1px solid #e5e7eb;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .strategy-modal-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #1f2937;
+        margin: 0;
+      }
+
+      .strategy-modal-close {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #6b7280;
+        padding: 8px;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+      }
+
+      .strategy-modal-close:hover {
+        background: #f3f4f6;
+        color: #374151;
+      }
+
+      .strategy-modal-body {
+        padding: 20px 24px 24px;
+      }
+
+      .strategy-description {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #374151;
+        margin: 0;
+      }
+
+      .strategy-loading {
+        text-align: center;
+        padding: 40px;
+        color: #6b7280;
+      }
+
+      /* 반응형 디자인 */
+      @media (max-width: 768px) {
+        .main-layout {
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+        .categories-grid {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+        .category-card {
+          padding: 14px;
+        }
+        .category-title {
+          font-size: 1rem;
+        }
+        .strategy-item {
+          padding: 8px 10px;
+        }
+        .strategy-name {
+          font-size: 0.75rem;
+        }
+        .chart-wrapper {
+          height: 250px;
+        }
+      }
+      
+      @media (max-width: 1200px) {
+        .categories-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* 시각화 관련 스타일 */
+      .visualization-section {
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+      }
+      .chart-container {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 16px 0;
+        padding: 16px;
+        border: 1px solid #e5e5e5;
+      }
+      .chart-header {
+        display: flex;
+        justify-content: between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      .chart-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #1a1a1a;
+        margin: 0;
+      }
+      .chart-description {
+        color: #666;
+        font-size: 0.9rem;
+        margin-top: 4px;
+      }
+      .chart-wrapper {
+        position: relative;
+        height: 300px;
+        margin-bottom: 16px;
+      }
+      .loading-spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        color: #666;
+      }
+      .top-strategies-container {
+        margin-top: 20px;
+      }
+      .model-tabs {
+        margin-bottom: 20px;
+      }
+      .model-tab {
+        border: 1px solid #e5e5e5;
+        background: white;
+        color: #666;
+        padding: 8px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        margin-right: 8px;
+      }
+      .model-tab:hover {
+        background: #f5f5f5;
+        border-color: #d0d0d0;
+      }
+      .model-tab.active {
+        background: #1a1a1a;
+        color: white;
+        border-color: #1a1a1a;
+      }
+      .viz-strategy-item {
+        background: #f9f9f9;
+        border-radius: 6px;
+        padding: 8px 12px;
+        margin: 4px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.85rem;
+      }
+      .viz-strategy-name {
+        font-weight: 500;
+        color: #1a1a1a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Header Section -->
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+          <h1 class="h3 mb-1">
+            <i class="fas fa-sitemap me-2"></i>
+            기만적 설득 기법 최종 Taxonomy
+          </h1>
+          <p class="text-muted mb-0">92개 개별 전략을 8개 핵심 카테고리로 체계화</p>
+        </div>
+        <a href="/" class="back-btn">
+          <i class="fas fa-arrow-left me-2"></i>
+          목록으로 돌아가기
+        </a>
+      </div>
+
+      <!-- Loading -->
+      <div id="loading" class="loading">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3">Taxonomy 데이터를 불러오는 중입니다...</p>
+      </div>
+
+      <!-- Main Content -->
+      <div id="main-content" style="display: none">
+        <div class="row">
+          <div class="col-12">
+            <div class="mb-4 p-3" style="background: linear-gradient(135deg, #f3e8ff 0%, #e0e7ff 100%); border-radius: 8px; border-left: 4px solid #8b5cf6;">
+              <div class="d-flex align-items-center">
+                <div>
+                  <h5 class="mb-1" style="color: #5b21b6;">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Taxonomy & 시각화 분석
+                  </h5>
+                  <p class="mb-0" style="color: #6d28d9;">
+                    왼쪽에서 8개 카테고리별 상세 전략을 확인하고, 오른쪽에서 데이터 분석 결과를 확인하세요
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 메인 2분할 레이아웃 -->
+        <div class="main-layout">
+          <!-- 왼쪽: Taxonomy 카테고리들 -->
+          <div id="categories-section">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h3>
+                <i class="fas fa-sitemap me-2"></i>
+                8개 핵심 카테고리
+              </h3>
+              <button type="button" class="btn btn-sm" style="background: #8b5cf6; color: white;" onclick="toggleAllCategories()">
+                <i class="fas fa-expand-alt me-2"></i>
+                <span id="toggle-all-text">모두 접기</span>
+              </button>
+            </div>
+            <div class="categories-grid" id="categories-grid">
+              <!-- Categories will be dynamically loaded here -->
+            </div>
+          </div>
+
+          <!-- 오른쪽: 시각화 -->
+          <div class="visualization-section">
+            <h3 class="mb-3">
+              <i class="fas fa-chart-pie me-2"></i>
+              데이터 시각화 분석
+            </h3>
+
+            <!-- 접근법 1: 모델별 전략 다양성 (주석처리됨) -->
+            <!--
+            <div class="chart-container">
+              <div class="chart-header">
+                <div>
+                  <h5 class="chart-title">모델별 전략 다양성</h5>
+                  <p class="chart-description">각 모델이 식별한 고유 전략의 개수</p>
+                </div>
+              </div>
+              <div id="diversity-loading" class="loading-spinner">
+                <div class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <span class="ms-2">로딩 중...</span>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="diversityChart" style="display: none;"></canvas>
+              </div>
+            </div>
+            -->
+
+            <!-- 접근법 2: 카테고리별 분포 -->
+            <div class="chart-container">
+              <div class="chart-header">
+                <div>
+                  <h5 class="chart-title">카테고리별 분포</h5>
+                  <p class="chart-description">8개 카테고리의 분포 (모델별 선택 가능)</p>
+                </div>
+              </div>
+              <div id="category-loading" class="loading-spinner">
+                <div class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <span class="ms-2">로딩 중...</span>
+              </div>
+              <!-- 모델 선택 탭 -->
+              <div class="model-tabs" id="categoryModelTabs" style="display: none;">
+                <!-- 모델 탭이 동적으로 추가됩니다 -->
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="categoryPieChart" style="display: none;"></canvas>
+              </div>
+            </div>
+
+            <!-- 상위 전략 표시 (주석처리됨) -->
+            <!--
+            <div class="chart-container" id="topStrategiesContainer" style="display: none;">
+              <div class="chart-header">
+                <div>
+                  <h5 class="chart-title">상위 전략 (빈도순)</h5>
+                  <p class="chart-description">모델별 상위 20개 전략</p>
+                </div>
+              </div>
+              <div class="model-tabs" id="modelTabs">
+                <!-- 모델 탭이 동적으로 추가됩니다 -->
+              </div>
+              <div id="strategiesList" style="max-height: 300px; overflow-y: auto;">
+                <!-- 전략 목록이 동적으로 추가됩니다 -->
+              </div>
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 전략 설명 모달 -->
+    <div id="strategyModal" class="strategy-modal">
+      <div class="strategy-modal-content">
+        <div class="strategy-modal-header">
+          <h3 class="strategy-modal-title" id="strategyModalTitle">전략 설명</h3>
+          <button type="button" class="strategy-modal-close" onclick="closeStrategyModal()">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="strategy-modal-body" id="strategyModalBody">
+          <div class="strategy-loading">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3">설명을 불러오는 중...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let taxonomyData = {};
+      let allExpanded = true;
+      
+
+
+      // 시각화 전역 변수
+      let diversityChart;
+      let categoryPieChart;
+      let topStrategiesData;
+      let categoryDistributionData;
+      let currentActiveModel = 'gemini-2.5-pro';
+      let currentCategoryModel = 'all';
+
+      // OpenAI 스타일 색상 팔레트
+      const colors = {
+          'gemini-2.5-pro': '#4F46E5',    // 인디고 블루
+          'o4-mini': '#10B981',           // 에메랄드 그린  
+          'deepseek-r1': '#F59E0B'        // 앰버 오렌지
+      };
+
+      const categoryColors = [
+          '#4F46E5',  // 인디고
+          '#10B981',  // 에메랄드
+          '#F59E0B',  // 앰버
+          '#EF4444',  // 레드
+          '#8B5CF6',  // 바이올렛
+          '#06B6D4',  // 시안
+          '#F97316',  // 오렌지
+          '#84CC16'   // 라임
+      ];
+
+      // 페이지 로드 시 실행
+      document.addEventListener("DOMContentLoaded", function () {
+        loadTaxonomyData();
+        // loadModelDiversity(); // 주석처리됨
+        loadCategoryDistribution();
+      });
+
+      async function loadTaxonomyData() {
+        try {
+          console.log('Loading taxonomy data...');
+          const response = await fetch('/api/get_taxonomy_data');
+          console.log('Response status:', response.status);
+          const data = await response.json();
+          console.log('Taxonomy data received:', data);
+
+          if (response.ok) {
+            taxonomyData = data.taxonomy;
+            console.log('Displaying taxonomy...');
+            displayTaxonomy(taxonomyData);
+            
+            document.getElementById("loading").style.display = "none";
+            document.getElementById("main-content").style.display = "block";
+            console.log('Taxonomy loaded successfully');
+          } else {
+            console.error('API error:', data.error);
+            showError("Taxonomy 데이터 로드 중 오류가 발생했습니다: " + data.error);
+          }
+        } catch (error) {
+          console.error('Error loading taxonomy:', error);
+          showError("Taxonomy 데이터 로드 중 오류가 발생했습니다: " + error.message);
+        }
+      }
+
+      function displayTaxonomy(taxonomy) {
+        console.log('Displaying taxonomy with categories:', Object.keys(taxonomy));
+        const container = document.getElementById("categories-grid");
+        if (!container) {
+          console.error('Categories grid container not found');
+          return;
+        }
+        
+        container.innerHTML = "";
+
+        let categoryIndex = 1;
+        Object.entries(taxonomy).forEach(([categoryName, categoryData]) => {
+          console.log('Creating card for category:', categoryName);
+          const categoryCard = createCategoryCard(categoryName, categoryData, categoryIndex);
+          container.appendChild(categoryCard);
+          categoryIndex++;
+        });
+        console.log('Taxonomy display completed');
+      }
+
+      function createCategoryCard(categoryName, categoryData, index) {
+        const card = document.createElement("div");
+        card.className = `category-card category-${index}`;
+        
+        card.innerHTML = `
+          <div class="category-header" onclick="toggleCategory('${categoryName}')">
+            <div class="category-title">
+              ${categoryName}
+            </div>
+            <div class="d-flex align-items-center">
+              <span class="category-stats">${categoryData.strategies.length}개 전략</span>
+              <button type="button" class="toggle-btn" id="toggle-${categoryName}">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="category-description">
+            ${categoryData.description}
+          </div>
+          
+          <div class="strategies-container" id="strategies-${categoryName}">
+            ${categoryData.strategies.map(strategy => `
+              <div class="strategy-item" onclick="showStrategyDescription('${strategy}')" style="cursor: pointer;">
+                <span class="strategy-name">${strategy}</span>
+              </div>
+            `).join('')}
+          </div>
+        `;
+        
+        return card;
+      }
+
+      function toggleCategory(categoryName) {
+        const container = document.getElementById(`strategies-${categoryName}`);
+        const button = document.getElementById(`toggle-${categoryName}`);
+        const icon = button.querySelector('i');
+        
+        if (container.classList.contains('collapsed')) {
+          container.classList.remove('collapsed');
+          button.classList.remove('collapsed');
+          icon.className = 'fas fa-chevron-down';
+        } else {
+          container.classList.add('collapsed');
+          button.classList.add('collapsed');
+          icon.className = 'fas fa-chevron-right';
+        }
+      }
+
+      function toggleAllCategories() {
+        const containers = document.querySelectorAll('.strategies-container');
+        const buttons = document.querySelectorAll('.toggle-btn');
+        const toggleText = document.getElementById('toggle-all-text');
+        
+        allExpanded = !allExpanded;
+        
+        containers.forEach(container => {
+          if (allExpanded) {
+            container.classList.remove('collapsed');
+          } else {
+            container.classList.add('collapsed');
+          }
+        });
+        
+        buttons.forEach(button => {
+          const icon = button.querySelector('i');
+          if (allExpanded) {
+            button.classList.remove('collapsed');
+            icon.className = 'fas fa-chevron-down';
+          } else {
+            button.classList.add('collapsed');
+            icon.className = 'fas fa-chevron-right';
+          }
+        });
+        
+        toggleText.textContent = allExpanded ? '모두 접기' : '모두 펼치기';
+      }
+
+      function showError(message) {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("main-content").style.display = "block";
+        document.getElementById("main-content").innerHTML = `
+          <div class="alert alert-danger" role="alert" style="background: #ffebee; border: 1px solid #f8bbd9; color: #c62828;">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            ${message}
+          </div>
+        `;
+      }
+
+      // 시각화 함수들
+      async function loadModelDiversity() {
+        try {
+          console.log('Loading model diversity data...');
+          const response = await fetch('/api/visualization/model_diversity');
+          console.log('Response status:', response.status);
+          const data = await response.json();
+          console.log('Model diversity data:', data);
+
+          if (response.ok) {
+            topStrategiesData = data.top_strategies;
+            console.log('Creating diversity chart...');
+            createDiversityChart(data);
+            console.log('Setting up top strategies...');
+            setupTopStrategies(data);
+            
+            document.getElementById('diversity-loading').style.display = 'none';
+            document.getElementById('diversityChart').style.display = 'block';
+            document.getElementById('topStrategiesContainer').style.display = 'block';
+            console.log('Model diversity loaded successfully');
+          } else {
+            console.error('API error:', data.error);
+            showVisualizationError('diversity-loading', data.error);
+          }
+        } catch (error) {
+          console.error('Error loading model diversity:', error);
+          showVisualizationError('diversity-loading', '데이터 로드 중 오류가 발생했습니다: ' + error.message);
+        }
+      }
+
+      async function loadCategoryDistribution() {
+        try {
+          const response = await fetch('/api/visualization/category_distribution_correct');
+          const data = await response.json();
+
+          if (response.ok) {
+            categoryDistributionData = data;
+            createCategoryCharts(data);
+            
+            document.getElementById('category-loading').style.display = 'none';
+            document.getElementById('categoryPieChart').style.display = 'block';
+            document.getElementById('categoryModelTabs').style.display = 'block';
+          } else {
+            showVisualizationError('category-loading', data.error);
+          }
+        } catch (error) {
+          showVisualizationError('category-loading', '데이터 로드 중 오류가 발생했습니다: ' + error.message);
+        }
+      }
+
+      function createDiversityChart(data) {
+        console.log('Creating diversity chart with data:', data);
+        const canvas = document.getElementById('diversityChart');
+        if (!canvas) {
+          console.error('Canvas element not found');
+          return;
+        }
+        
+        const ctx = canvas.getContext('2d');
+        if (!ctx) {
+          console.error('Could not get 2D context');
+          return;
+        }
+        
+        console.log('Chart.js available:', typeof Chart !== 'undefined');
+        if (typeof Chart === 'undefined') {
+          console.error('Chart.js is not loaded');
+          return;
+        }
+        
+                try {
+          diversityChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: data.models,
+              datasets: [{
+                label: '고유 전략 개수',
+                data: data.strategy_counts,
+                backgroundColor: data.models.map(model => colors[model]),
+                borderColor: data.models.map(model => colors[model]),
+                borderWidth: 0,
+                hoverBackgroundColor: data.models.map(model => colors[model] + '99'),
+                hoverBorderColor: data.models.map(model => colors[model]),
+                hoverBorderWidth: 2
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                title: {
+                  display: true,
+                  text: '모델별 식별한 고유 전략 개수',
+                  font: { size: 14, weight: 'bold' },
+                  color: '#111827'
+                },
+                legend: { display: false },
+                tooltip: {
+                  backgroundColor: '#ffffff',
+                  titleColor: '#1f2937',
+                  bodyColor: '#374151',
+                  borderColor: '#e5e7eb',
+                  borderWidth: 1,
+                  cornerRadius: 8,
+                  titleFont: { size: 12, weight: 'bold' },
+                  bodyFont: { size: 11 },
+                  padding: 12,
+                  displayColors: false
+                }
+              },
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  title: {
+                    display: true,
+                    text: '전략 개수',
+                    color: '#374151',
+                    font: { size: 12, weight: 'bold' }
+                  },
+                  ticks: { color: '#6b7280', font: { size: 11 } },
+                  grid: { color: '#f3f4f6', borderDash: [2, 2] }
+                },
+                x: {
+                  ticks: { color: '#6b7280', font: { size: 11 } },
+                  grid: { display: false }
+                }
+              }
+            }
+          });
+          console.log('Diversity chart created successfully');
+        } catch (error) {
+          console.error('Error creating diversity chart:', error);
+          showVisualizationError('diversity-loading', '차트 생성 중 오류가 발생했습니다: ' + error.message);
+        }
+
+      function setupTopStrategies(data) {
+        const tabsContainer = document.getElementById('modelTabs');
+        
+        tabsContainer.innerHTML = '';
+        data.models.forEach(model => {
+          const tab = document.createElement('button');
+          tab.className = `model-tab ${model === currentActiveModel ? 'active' : ''}`;
+          tab.textContent = model;
+          tab.onclick = () => showTopStrategies(model);
+          tabsContainer.appendChild(tab);
+        });
+        
+        showTopStrategies(currentActiveModel);
+      }
+
+      function showTopStrategies(model) {
+        currentActiveModel = model;
+        
+        document.querySelectorAll('.model-tab').forEach(tab => {
+          tab.classList.remove('active');
+          if (tab.textContent === model) {
+            tab.classList.add('active');
+          }
+        });
+        
+        const strategiesContainer = document.getElementById('strategiesList');
+        const modelData = topStrategiesData[model];
+        
+        strategiesContainer.innerHTML = '';
+        modelData.strategies.forEach((strategy, index) => {
+          const item = document.createElement('div');
+          item.className = 'viz-strategy-item';
+          item.innerHTML = `
+            <span class="viz-strategy-name">${index + 1}. ${strategy}</span>
+          `;
+          strategiesContainer.appendChild(item);
+        });
+      }
+
+      function createCategoryCharts(data) {
+        // 모델 탭 생성
+        setupCategoryModelTabs(data);
+        
+        // 파이차트 생성
+        const pieCtx = document.getElementById('categoryPieChart').getContext('2d');
+        categoryPieChart = new Chart(pieCtx, {
+          type: 'pie',
+          data: {
+            labels: data.categories,
+            datasets: [{
+              data: data.total_counts,
+              backgroundColor: categoryColors,
+              borderColor: '#ffffff',
+              borderWidth: 2,
+              hoverBorderWidth: 3
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              title: {
+                display: true,
+                text: '전체 카테고리별 전략 분포',
+                font: { size: 14, weight: 'bold' },
+                color: '#111827'
+              },
+              legend: {
+                position: 'bottom',
+                labels: {
+                  boxWidth: 12,
+                  padding: 8,
+                  fontSize: 11,
+                  color: '#374151',
+                  usePointStyle: true,
+                  pointStyle: 'circle'
+                }
+              },
+              tooltip: {
+                backgroundColor: '#ffffff',
+                titleColor: '#1f2937',
+                bodyColor: '#374151',
+                borderColor: '#e5e7eb',
+                borderWidth: 1,
+                cornerRadius: 8,
+                titleFont: { size: 12, weight: 'bold' },
+                bodyFont: { size: 11 },
+                padding: 12,
+                displayColors: true,
+                callbacks: {
+                  label: function(context) {
+                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                    const percentage = ((context.parsed / total) * 100).toFixed(1);
+                    return `${context.label}: ${context.parsed.toLocaleString()}회 (${percentage}%)`;
+                  }
+                }
+              }
+            }
+          }
+        });
+      }
+
+      function setupCategoryModelTabs(data) {
+        const tabsContainer = document.getElementById('categoryModelTabs');
+        
+        tabsContainer.innerHTML = '';
+        
+        // "전체" 탭 추가
+        const allTab = document.createElement('button');
+        allTab.className = `model-tab ${currentCategoryModel === 'all' ? 'active' : ''}`;
+        allTab.textContent = '전체';
+        allTab.onclick = () => showCategoryDistribution('all');
+        tabsContainer.appendChild(allTab);
+        
+        // 개별 모델 탭들 추가
+        Object.keys(data.model_distributions).forEach(model => {
+          const tab = document.createElement('button');
+          tab.className = `model-tab ${model === currentCategoryModel ? 'active' : ''}`;
+          tab.textContent = model;
+          tab.onclick = () => showCategoryDistribution(model);
+          tabsContainer.appendChild(tab);
+        });
+      }
+
+      function showCategoryDistribution(selectedModel) {
+        currentCategoryModel = selectedModel;
+        
+        // 탭 활성화 상태 업데이트
+        document.querySelectorAll('#categoryModelTabs .model-tab').forEach(tab => {
+          tab.classList.remove('active');
+          if ((selectedModel === 'all' && tab.textContent === '전체') || 
+              (selectedModel !== 'all' && tab.textContent === selectedModel)) {
+            tab.classList.add('active');
+          }
+        });
+        
+        // 차트 데이터 업데이트
+        let chartData, chartTitle;
+        
+        if (selectedModel === 'all') {
+          chartData = categoryDistributionData.total_counts;
+          chartTitle = '전체 카테고리별 전략 분포';
+        } else {
+          chartData = categoryDistributionData.model_distributions[selectedModel].counts;
+          chartTitle = `${selectedModel} 카테고리별 전략 분포`;
+        }
+        
+        // 차트 업데이트
+        categoryPieChart.data.datasets[0].data = chartData;
+        categoryPieChart.options.plugins.title.text = chartTitle;
+        categoryPieChart.update();
+      }
+
+      function showVisualizationError(containerId, message) {
+        document.getElementById(containerId).innerHTML = `
+          <div class="alert alert-warning" role="alert">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            ${message}
+          </div>
+        `;
+      }
+
+      // 전략 설명 모달 관련 함수들
+      async function showStrategyDescription(strategyName) {
+        const modal = document.getElementById('strategyModal');
+        const modalTitle = document.getElementById('strategyModalTitle');
+        const modalBody = document.getElementById('strategyModalBody');
+        
+        // 모달 제목 설정
+        modalTitle.textContent = strategyName;
+        
+        // 로딩 상태 표시
+        modalBody.innerHTML = `
+          <div class="strategy-loading">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3">설명을 불러오는 중...</p>
+          </div>
+        `;
+        
+        // 모달 표시
+        modal.style.display = 'block';
+        
+        try {
+          // 전략 설명 가져오기
+          const response = await fetch(`/api/get_strategy_description/${encodeURIComponent(strategyName)}`);
+          const data = await response.json();
+          
+          if (response.ok) {
+            modalBody.innerHTML = `
+              <p class="strategy-description">${data.description}</p>
+            `;
+          } else {
+            modalBody.innerHTML = `
+              <div class="alert alert-warning" role="alert">
+                <i class="fas fa-exclamation-triangle me-2"></i>
+                설명을 불러오는 중 오류가 발생했습니다.
+              </div>
+            `;
+          }
+        } catch (error) {
+          modalBody.innerHTML = `
+            <div class="alert alert-warning" role="alert">
+              <i class="fas fa-exclamation-triangle me-2"></i>
+              설명을 불러오는 중 오류가 발생했습니다: ${error.message}
+            </div>
+          `;
+        }
+      }
+
+      function closeStrategyModal() {
+        const modal = document.getElementById('strategyModal');
+        modal.style.display = 'none';
+      }
+
+      // 모달 외부 클릭 시 닫기
+      window.onclick = function(event) {
+        const modal = document.getElementById('strategyModal');
+        if (event.target === modal) {
+          closeStrategyModal();
+        }
+      }
+
+      // ESC 키로 모달 닫기
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+          closeStrategyModal();
+        }
+      });
+    </script>
+  </body>
+</html> 

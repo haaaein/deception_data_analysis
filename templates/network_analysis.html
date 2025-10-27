@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini v4 Strategy Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        button { padding: 10px 15px; font-size: 16px; cursor: pointer; }
+        #loading { display: none; }
+        #results { margin-top: 20px; }
+        .result-section {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gemini v4 Deceptive Strategy Analysis</h1>
+    <p>This page analyzes the Gemini v4 open coding data to understand strategy usage and co-occurrence.</p>
+    <button id="runAnalysisBtn">Run Analysis for Gemini v4</button>
+    <div id="loading">
+        <p>Analyzing data... This may take a moment.</p>
+    </div>
+    <div id="results" style="display: none;">
+        <div class="result-section">
+            <h2>Reliability Report</h2>
+            <h3>Mapping Validation</h3>
+            <p><strong>Mapping Conflicts (Raw strategies mapping to multiple final strategies):</strong></p>
+            <pre id="mappingConflicts"></pre>
+            <h3>Data Summary</h3>
+            <p><strong>Total Unique Arguments Analyzed:</strong> <span id="totalArguments"></span></p>
+            <p><strong>Total Unique Raw Strategies Found:</strong> <span id="totalRawStrategies"></span></p>
+            <p><strong>Total Unique Final Strategies Mapped:</strong> <span id="totalFinalStrategies"></span></p>
+        </div>
+
+        <div class="result-section">
+            <h2>Key Analysis Results</h2>
+            <h3>1. How many strategies are used on average per argument?</h3>
+            <p><strong>Average number of final strategies per argument:</strong> <span id="avgStrategies"></span></p>
+            <canvas id="complexityChart" width="400" height="200"></canvas>
+
+            <h3>2. Which strategies are most frequently used together?</h3>
+            <p>The table below shows the top 10 most frequently co-occurring pairs of final strategies.</p>
+            <table id="cooccurrenceTable">
+                <thead>
+                    <tr>
+                        <th>Strategy Pair</th>
+                        <th>Co-occurrence Count</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('runAnalysisBtn').addEventListener('click', () => {
+            const loadingDiv = document.getElementById('loading');
+            const resultsDiv = document.getElementById('results');
+            const runBtn = document.getElementById('runAnalysisBtn');
+
+            loadingDiv.style.display = 'block';
+            resultsDiv.style.display = 'none';
+            runBtn.disabled = true;
+
+            fetch('/api/gemini/v4/analysis')
+                .then(response => {
+                    if (!response.ok) {
+                        return response.json().then(err => { throw new Error(err.error || 'Network response was not ok'); });
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Hide loading and show results
+                    loadingDiv.style.display = 'none';
+                    resultsDiv.style.display = 'block';
+                    runBtn.disabled = false;
+
+                    // == Populate Reliability Report ==
+                    const conflicts = data.reliability_report.mapping_conflicts;
+                    document.getElementById('mappingConflicts').textContent = conflicts.length > 0 ? JSON.stringify(conflicts, null, 2) : 'No conflicts found. Mapping is reliable.';
+
+                    document.getElementById('totalArguments').textContent = data.reliability_report.total_arguments;
+                    document.getElementById('totalRawStrategies').textContent = data.reliability_report.total_raw_strategies;
+                    document.getElementById('totalFinalStrategies').textContent = data.reliability_report.total_final_strategies;
+
+                    // == Populate Key Analysis Results ==
+
+                    // 1. Argument Complexity
+                    document.getElementById('avgStrategies').textContent = data.analysis_results.argument_complexity.average_strategies_per_argument.toFixed(2);
+                    const complexityData = data.analysis_results.argument_complexity.distribution;
+                    const complexityLabels = Object.keys(complexityData);
+                    const complexityValues = Object.values(complexityData);
+
+                    // Destroy previous chart instance if it exists
+                    if (window.myComplexityChart) {
+                        window.myComplexityChart.destroy();
+                    }
+                    const ctxComplexity = document.getElementById('complexityChart').getContext('2d');
+                    window.myComplexityChart = new Chart(ctxComplexity, {
+                        type: 'bar',
+                        data: {
+                            labels: complexityLabels,
+                            datasets: [{
+                                label: '# of Arguments',
+                                data: complexityValues,
+                                backgroundColor: 'rgba(75, 192, 192, 0.6)'
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Number of Strategies per Argument'
+                                    }
+                                },
+                                y: {
+                                    beginAtZero: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Number of Arguments'
+                                    }
+                                }
+                            }
+                        }
+                    });
+
+
+                    // 2. Co-occurrence
+                    const cooccurrenceTableBody = document.querySelector('#cooccurrenceTable tbody');
+                    cooccurrenceTableBody.innerHTML = ''; // Clear previous results
+                    const topPairs = data.analysis_results.strategy_cooccurrence.top_pairs;
+                    topPairs.forEach(pair => {
+                        const row = document.createElement('tr');
+                        const pairCell = document.createElement('td');
+                        pairCell.textContent = `${pair.pair[0]} - ${pair.pair[1]}`;
+                        const countCell = document.createElement('td');
+                        countCell.textContent = pair.count;
+                        row.appendChild(pairCell);
+                        row.appendChild(countCell);
+                        cooccurrenceTableBody.appendChild(row);
+                    });
+
+                })
+                .catch(error => {
+                    loadingDiv.style.display = 'none';
+                    runBtn.disabled = false;
+                    alert('An error occurred during analysis: ' + error.message);
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+</html> 

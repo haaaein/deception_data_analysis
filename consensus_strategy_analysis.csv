@@ -1,0 +1,1514 @@
+argument_id,final_strategy,agreement_count
+0,Appealing to Emotion,3
+0,Distorting the Argument,3
+0,Exploiting Social Biases,3
+0,Flawed Reasoning,3
+0,Misrepresenting Authority,3
+0,Misusing Evidence,3
+1,Appealing to Emotion,3
+1,Distorting the Argument,3
+1,Flawed Reasoning,3
+1,Misusing Evidence,3
+2,Appealing to Emotion,3
+2,Distorting the Argument,3
+2,Exploiting Social Biases,3
+2,Flawed Reasoning,3
+3,Appealing to Emotion,3
+3,Distorting the Argument,3
+3,Exploiting Social Biases,3
+3,Flawed Reasoning,3
+3,Manipulative Language,3
+3,Misrepresenting Authority,3
+3,Misusing Evidence,3
+3,No Deception,3
+4,Appealing to Emotion,3
+4,Distorting the Argument,3
+4,Exploiting Social Biases,3
+4,Flawed Reasoning,3
+4,Misrepresenting Authority,3
+4,Misusing Evidence,3
+4,No Deception,3
+5,Appealing to Emotion,3
+5,Distorting the Argument,3
+5,Flawed Reasoning,3
+5,Misusing Evidence,3
+5,No Deception,3
+6,Appealing to Emotion,3
+6,Distorting the Argument,3
+6,Exploiting Social Biases,3
+6,Flawed Reasoning,3
+6,Misusing Evidence,3
+7,Appealing to Emotion,3
+7,Distorting the Argument,3
+7,Flawed Reasoning,3
+7,Misusing Evidence,3
+7,No Deception,3
+8,Appealing to Emotion,3
+8,Distorting the Argument,3
+8,Exploiting Social Biases,3
+8,Flawed Reasoning,3
+8,Misrepresenting Authority,3
+8,Misusing Evidence,3
+9,Appealing to Emotion,3
+9,Distorting the Argument,3
+9,Exploiting Social Biases,3
+9,Flawed Reasoning,3
+9,Misrepresenting Authority,3
+9,Misusing Evidence,3
+10,Appealing to Emotion,3
+10,Distorting the Argument,3
+10,Exploiting Social Biases,3
+10,Flawed Reasoning,3
+10,Misrepresenting Authority,3
+10,Misusing Evidence,3
+11,Appealing to Emotion,3
+11,Distorting the Argument,3
+11,Exploiting Social Biases,3
+11,Flawed Reasoning,3
+11,Misrepresenting Authority,3
+11,Misusing Evidence,3
+12,Appealing to Emotion,3
+12,Distorting the Argument,3
+12,Flawed Reasoning,3
+12,Misusing Evidence,3
+13,Appealing to Emotion,3
+13,Distorting the Argument,3
+13,Exploiting Social Biases,3
+13,Flawed Reasoning,3
+13,Misusing Evidence,3
+14,Appealing to Emotion,3
+14,Distorting the Argument,3
+14,Flawed Reasoning,3
+14,Misrepresenting Authority,3
+14,Misusing Evidence,3
+15,Appealing to Emotion,3
+15,Distorting the Argument,3
+15,Flawed Reasoning,3
+15,Misusing Evidence,3
+16,Appealing to Emotion,3
+16,Distorting the Argument,3
+16,Exploiting Social Biases,3
+16,Flawed Reasoning,3
+16,Misrepresenting Authority,3
+16,Misusing Evidence,3
+17,Appealing to Emotion,3
+17,Distorting the Argument,3
+17,Exploiting Social Biases,3
+17,Flawed Reasoning,3
+17,Misrepresenting Authority,3
+17,Misusing Evidence,3
+18,Appealing to Emotion,3
+18,Distorting the Argument,3
+18,Exploiting Social Biases,3
+18,Flawed Reasoning,3
+18,Misrepresenting Authority,3
+18,Misusing Evidence,3
+19,Appealing to Emotion,3
+19,Distorting the Argument,3
+19,Exploiting Social Biases,3
+19,Flawed Reasoning,3
+19,Misrepresenting Authority,3
+19,Misusing Evidence,3
+20,Distorting the Argument,3
+20,Exploiting Social Biases,3
+20,Flawed Reasoning,3
+20,Misusing Evidence,3
+21,Appealing to Emotion,3
+21,Distorting the Argument,3
+21,Exploiting Social Biases,3
+21,Flawed Reasoning,3
+21,Misrepresenting Authority,3
+21,Misusing Evidence,3
+21,No Deception,3
+22,Appealing to Emotion,3
+22,Distorting the Argument,3
+22,Exploiting Social Biases,3
+22,Flawed Reasoning,3
+22,Misusing Evidence,3
+23,Appealing to Emotion,3
+23,Distorting the Argument,3
+23,Exploiting Social Biases,3
+23,Flawed Reasoning,3
+23,Misusing Evidence,3
+24,Appealing to Emotion,3
+24,Distorting the Argument,3
+24,Exploiting Social Biases,3
+24,Flawed Reasoning,3
+24,Misrepresenting Authority,3
+24,Misusing Evidence,3
+24,No Deception,3
+25,Appealing to Emotion,3
+25,Distorting the Argument,3
+25,Exploiting Social Biases,3
+25,Flawed Reasoning,3
+25,Misusing Evidence,3
+25,No Deception,3
+26,Appealing to Emotion,3
+26,Distorting the Argument,3
+26,Exploiting Social Biases,3
+26,Flawed Reasoning,3
+26,Misrepresenting Authority,3
+26,Misusing Evidence,3
+26,No Deception,3
+27,Appealing to Emotion,3
+27,Distorting the Argument,3
+27,Flawed Reasoning,3
+27,Misusing Evidence,3
+28,Appealing to Emotion,3
+28,Distorting the Argument,3
+28,Flawed Reasoning,3
+28,Misrepresenting Authority,3
+28,Misusing Evidence,3
+29,Appealing to Emotion,3
+29,Distorting the Argument,3
+29,Exploiting Social Biases,3
+29,Flawed Reasoning,3
+29,Misusing Evidence,3
+30,Appealing to Emotion,3
+30,Distorting the Argument,3
+30,Flawed Reasoning,3
+30,Misrepresenting Authority,3
+30,Misusing Evidence,3
+31,Appealing to Emotion,3
+31,Distorting the Argument,3
+31,Exploiting Social Biases,3
+31,Flawed Reasoning,3
+31,Misusing Evidence,3
+32,Appealing to Emotion,3
+32,Distorting the Argument,3
+32,Exploiting Social Biases,3
+32,Flawed Reasoning,3
+32,Misrepresenting Authority,3
+32,Misusing Evidence,3
+33,Appealing to Emotion,3
+33,Distorting the Argument,3
+33,Exploiting Social Biases,3
+33,Flawed Reasoning,3
+34,Appealing to Emotion,3
+34,Distorting the Argument,3
+34,Exploiting Social Biases,3
+34,Flawed Reasoning,3
+34,Misrepresenting Authority,3
+34,Misusing Evidence,3
+35,Appealing to Emotion,3
+35,Distorting the Argument,3
+35,Exploiting Social Biases,3
+35,Flawed Reasoning,3
+35,Manipulative Language,3
+35,Misusing Evidence,3
+36,Appealing to Emotion,3
+36,Flawed Reasoning,3
+36,Misusing Evidence,3
+36,No Deception,3
+37,Appealing to Emotion,3
+37,Distorting the Argument,3
+37,Exploiting Social Biases,3
+37,Flawed Reasoning,3
+37,Misrepresenting Authority,3
+37,Misusing Evidence,3
+37,No Deception,3
+38,Appealing to Emotion,3
+38,Distorting the Argument,3
+38,Flawed Reasoning,3
+38,Manipulative Language,3
+38,Misrepresenting Authority,3
+38,Misusing Evidence,3
+39,Appealing to Emotion,3
+39,Distorting the Argument,3
+39,Exploiting Social Biases,3
+39,Flawed Reasoning,3
+39,Misusing Evidence,3
+40,Appealing to Emotion,3
+40,Distorting the Argument,3
+40,Flawed Reasoning,3
+40,Misusing Evidence,3
+41,Appealing to Emotion,3
+41,Distorting the Argument,3
+41,Flawed Reasoning,3
+41,Misusing Evidence,3
+42,Appealing to Emotion,3
+42,Distorting the Argument,3
+42,Exploiting Social Biases,3
+42,Flawed Reasoning,3
+42,Manipulative Language,3
+42,Misusing Evidence,3
+43,Appealing to Emotion,3
+43,Distorting the Argument,3
+43,Flawed Reasoning,3
+43,Misusing Evidence,3
+44,Appealing to Emotion,3
+44,Distorting the Argument,3
+44,Flawed Reasoning,3
+44,Manipulative Language,3
+44,Misusing Evidence,3
+45,Appealing to Emotion,3
+45,Distorting the Argument,3
+45,Exploiting Social Biases,3
+45,Flawed Reasoning,3
+45,Manipulative Language,3
+45,Misrepresenting Authority,3
+45,Misusing Evidence,3
+46,Appealing to Emotion,3
+46,Distorting the Argument,3
+46,Flawed Reasoning,3
+46,Misrepresenting Authority,3
+46,Misusing Evidence,3
+47,Appealing to Emotion,3
+47,Distorting the Argument,3
+47,Flawed Reasoning,3
+47,Manipulative Language,3
+47,Misrepresenting Authority,3
+47,Misusing Evidence,3
+47,No Deception,3
+48,Appealing to Emotion,3
+48,Distorting the Argument,3
+48,Flawed Reasoning,3
+48,Manipulative Language,3
+48,Misusing Evidence,3
+49,Appealing to Emotion,3
+49,Distorting the Argument,3
+49,Exploiting Social Biases,3
+49,Flawed Reasoning,3
+49,Misrepresenting Authority,3
+49,Misusing Evidence,3
+50,Appealing to Emotion,3
+50,Distorting the Argument,3
+50,Exploiting Social Biases,3
+50,Flawed Reasoning,3
+50,Misrepresenting Authority,3
+50,Misusing Evidence,3
+51,Appealing to Emotion,3
+51,Distorting the Argument,3
+51,Flawed Reasoning,3
+51,Misrepresenting Authority,3
+51,Misusing Evidence,3
+52,Appealing to Emotion,3
+52,Distorting the Argument,3
+52,Exploiting Social Biases,3
+52,Flawed Reasoning,3
+52,Misusing Evidence,3
+53,Distorting the Argument,3
+53,Flawed Reasoning,3
+53,Misrepresenting Authority,3
+53,Misusing Evidence,3
+54,Appealing to Emotion,3
+54,Distorting the Argument,3
+54,Exploiting Social Biases,3
+54,Flawed Reasoning,3
+54,Misrepresenting Authority,3
+54,Misusing Evidence,3
+55,Appealing to Emotion,3
+55,Distorting the Argument,3
+55,Exploiting Social Biases,3
+55,Flawed Reasoning,3
+55,Misrepresenting Authority,3
+55,Misusing Evidence,3
+56,Appealing to Emotion,3
+56,Distorting the Argument,3
+56,Exploiting Social Biases,3
+56,Flawed Reasoning,3
+56,Misusing Evidence,3
+57,Appealing to Emotion,3
+57,Distorting the Argument,3
+57,Exploiting Social Biases,3
+57,Flawed Reasoning,3
+57,Misusing Evidence,3
+58,Appealing to Emotion,3
+58,Distorting the Argument,3
+58,Exploiting Social Biases,3
+58,Flawed Reasoning,3
+58,Misusing Evidence,3
+58,No Deception,3
+59,Appealing to Emotion,3
+59,Distorting the Argument,3
+59,Exploiting Social Biases,3
+59,Flawed Reasoning,3
+59,Misusing Evidence,3
+59,No Deception,3
+60,Appealing to Emotion,3
+60,Distorting the Argument,3
+60,Exploiting Social Biases,3
+60,Flawed Reasoning,3
+60,Misusing Evidence,3
+61,Appealing to Emotion,3
+61,Distorting the Argument,3
+61,Exploiting Social Biases,3
+61,Flawed Reasoning,3
+61,Manipulative Language,3
+61,Misrepresenting Authority,3
+61,Misusing Evidence,3
+62,Appealing to Emotion,3
+62,Distorting the Argument,3
+62,Exploiting Social Biases,3
+62,Flawed Reasoning,3
+62,Misusing Evidence,3
+62,No Deception,3
+63,Appealing to Emotion,3
+63,Distorting the Argument,3
+63,Exploiting Social Biases,3
+63,Flawed Reasoning,3
+63,Misrepresenting Authority,3
+63,Misusing Evidence,3
+63,No Deception,3
+64,Appealing to Emotion,3
+64,Distorting the Argument,3
+64,Exploiting Social Biases,3
+64,Flawed Reasoning,3
+64,Misusing Evidence,3
+65,Appealing to Emotion,3
+65,Distorting the Argument,3
+65,Exploiting Social Biases,3
+65,Flawed Reasoning,3
+65,Misrepresenting Authority,3
+65,Misusing Evidence,3
+66,Appealing to Emotion,3
+66,Distorting the Argument,3
+66,Exploiting Social Biases,3
+66,Flawed Reasoning,3
+66,Misrepresenting Authority,3
+66,Misusing Evidence,3
+67,Appealing to Emotion,3
+67,Distorting the Argument,3
+67,Exploiting Social Biases,3
+67,Flawed Reasoning,3
+67,Misusing Evidence,3
+68,Appealing to Emotion,3
+68,Distorting the Argument,3
+68,Exploiting Social Biases,3
+68,Flawed Reasoning,3
+68,Manipulative Language,3
+68,Misrepresenting Authority,3
+68,Misusing Evidence,3
+69,Appealing to Emotion,3
+69,Distorting the Argument,3
+69,Exploiting Social Biases,3
+69,Flawed Reasoning,3
+69,Misusing Evidence,3
+70,Appealing to Emotion,3
+70,Distorting the Argument,3
+70,Flawed Reasoning,3
+70,Manipulative Language,3
+70,Misusing Evidence,3
+71,Appealing to Emotion,3
+71,Distorting the Argument,3
+71,Flawed Reasoning,3
+72,Appealing to Emotion,3
+72,Distorting the Argument,3
+72,Exploiting Social Biases,3
+72,Flawed Reasoning,3
+72,Misrepresenting Authority,3
+72,Misusing Evidence,3
+73,Appealing to Emotion,3
+73,Distorting the Argument,3
+73,Exploiting Social Biases,3
+73,Flawed Reasoning,3
+73,Misrepresenting Authority,3
+73,Misusing Evidence,3
+74,Appealing to Emotion,3
+74,Distorting the Argument,3
+74,Exploiting Social Biases,3
+74,Flawed Reasoning,3
+74,Misusing Evidence,3
+75,Appealing to Emotion,3
+75,Distorting the Argument,3
+75,Flawed Reasoning,3
+75,Manipulative Language,3
+75,Misusing Evidence,3
+76,Appealing to Emotion,3
+76,Distorting the Argument,3
+76,Exploiting Social Biases,3
+76,Flawed Reasoning,3
+76,Misusing Evidence,3
+77,Appealing to Emotion,3
+77,Distorting the Argument,3
+77,Exploiting Social Biases,3
+77,Flawed Reasoning,3
+77,Misrepresenting Authority,3
+77,Misusing Evidence,3
+78,Appealing to Emotion,3
+78,Distorting the Argument,3
+78,Exploiting Social Biases,3
+78,Flawed Reasoning,3
+78,Misusing Evidence,3
+79,Appealing to Emotion,3
+79,Distorting the Argument,3
+79,Exploiting Social Biases,3
+79,Flawed Reasoning,3
+79,Manipulative Language,3
+79,Misrepresenting Authority,3
+79,Misusing Evidence,3
+79,No Deception,3
+80,Appealing to Emotion,3
+80,Distorting the Argument,3
+80,Exploiting Social Biases,3
+80,Flawed Reasoning,3
+80,Misrepresenting Authority,3
+80,Misusing Evidence,3
+81,Appealing to Emotion,3
+81,Distorting the Argument,3
+81,Flawed Reasoning,3
+81,Misusing Evidence,3
+82,Appealing to Emotion,3
+82,Distorting the Argument,3
+82,Exploiting Social Biases,3
+82,Flawed Reasoning,3
+82,Misusing Evidence,3
+82,No Deception,3
+83,Appealing to Emotion,3
+83,Distorting the Argument,3
+83,Exploiting Social Biases,3
+83,Flawed Reasoning,3
+83,Misusing Evidence,3
+84,Appealing to Emotion,3
+84,Distorting the Argument,3
+84,Exploiting Social Biases,3
+84,Flawed Reasoning,3
+84,Misrepresenting Authority,3
+84,Misusing Evidence,3
+85,Appealing to Emotion,3
+85,Distorting the Argument,3
+85,Flawed Reasoning,3
+85,Misrepresenting Authority,3
+85,Misusing Evidence,3
+86,Appealing to Emotion,3
+86,Distorting the Argument,3
+86,Exploiting Social Biases,3
+86,Flawed Reasoning,3
+86,Misusing Evidence,3
+87,Appealing to Emotion,3
+87,Distorting the Argument,3
+87,Flawed Reasoning,3
+87,Misrepresenting Authority,3
+87,Misusing Evidence,3
+88,Appealing to Emotion,3
+88,Distorting the Argument,3
+88,Exploiting Social Biases,3
+88,Flawed Reasoning,3
+88,Misusing Evidence,3
+89,Appealing to Emotion,3
+89,Distorting the Argument,3
+89,Exploiting Social Biases,3
+89,Flawed Reasoning,3
+89,Misusing Evidence,3
+90,Appealing to Emotion,3
+90,Distorting the Argument,3
+90,Flawed Reasoning,3
+90,Misrepresenting Authority,3
+90,Misusing Evidence,3
+91,Appealing to Emotion,3
+91,Distorting the Argument,3
+91,Flawed Reasoning,3
+91,Misusing Evidence,3
+92,Appealing to Emotion,3
+92,Exploiting Social Biases,3
+92,Flawed Reasoning,3
+92,Manipulative Language,3
+92,Misrepresenting Authority,3
+92,Misusing Evidence,3
+92,No Deception,3
+93,Appealing to Emotion,3
+93,Distorting the Argument,3
+93,Exploiting Social Biases,3
+93,Flawed Reasoning,3
+93,Misusing Evidence,3
+94,Appealing to Emotion,3
+94,Distorting the Argument,3
+94,Flawed Reasoning,3
+94,Misusing Evidence,3
+94,No Deception,3
+95,Appealing to Emotion,3
+95,Distorting the Argument,3
+95,Exploiting Social Biases,3
+95,Flawed Reasoning,3
+95,Misrepresenting Authority,3
+95,Misusing Evidence,3
+95,No Deception,3
+96,Appealing to Emotion,3
+96,Distorting the Argument,3
+96,Flawed Reasoning,3
+96,Misusing Evidence,3
+97,Appealing to Emotion,3
+97,Distorting the Argument,3
+97,Exploiting Social Biases,3
+97,Flawed Reasoning,3
+97,Misusing Evidence,3
+98,Appealing to Emotion,3
+98,Distorting the Argument,3
+98,Flawed Reasoning,3
+98,Misusing Evidence,3
+99,Appealing to Emotion,3
+99,Distorting the Argument,3
+99,Exploiting Social Biases,3
+99,Flawed Reasoning,3
+99,Misusing Evidence,3
+100,Appealing to Emotion,3
+100,Distorting the Argument,3
+100,Exploiting Social Biases,3
+100,Flawed Reasoning,3
+100,Misrepresenting Authority,3
+100,Misusing Evidence,3
+100,No Deception,3
+101,Appealing to Emotion,3
+101,Distorting the Argument,3
+101,Exploiting Social Biases,3
+101,Flawed Reasoning,3
+101,Misrepresenting Authority,3
+101,Misusing Evidence,3
+102,Appealing to Emotion,3
+102,Distorting the Argument,3
+102,Flawed Reasoning,3
+102,Misusing Evidence,3
+103,Appealing to Emotion,3
+103,Distorting the Argument,3
+103,Flawed Reasoning,3
+103,Manipulative Language,3
+103,Misusing Evidence,3
+103,No Deception,3
+104,Appealing to Emotion,3
+104,Distorting the Argument,3
+104,Exploiting Social Biases,3
+104,Flawed Reasoning,3
+104,Misusing Evidence,3
+105,Appealing to Emotion,3
+105,Distorting the Argument,3
+105,Flawed Reasoning,3
+105,Misusing Evidence,3
+106,Appealing to Emotion,3
+106,Distorting the Argument,3
+106,Exploiting Social Biases,3
+106,Flawed Reasoning,3
+106,Misusing Evidence,3
+107,Appealing to Emotion,3
+107,Distorting the Argument,3
+107,Flawed Reasoning,3
+107,Misusing Evidence,3
+108,Appealing to Emotion,3
+108,Distorting the Argument,3
+108,Exploiting Social Biases,3
+108,Flawed Reasoning,3
+108,Misusing Evidence,3
+108,No Deception,3
+109,Appealing to Emotion,3
+109,Distorting the Argument,3
+109,Exploiting Social Biases,3
+109,Flawed Reasoning,3
+109,Misusing Evidence,3
+110,Appealing to Emotion,3
+110,Distorting the Argument,3
+110,Exploiting Social Biases,3
+110,Flawed Reasoning,3
+110,Misrepresenting Authority,3
+110,Misusing Evidence,3
+111,Appealing to Emotion,3
+111,Distorting the Argument,3
+111,Exploiting Social Biases,3
+111,Flawed Reasoning,3
+111,Misusing Evidence,3
+112,Distorting the Argument,3
+112,Exploiting Social Biases,3
+112,Flawed Reasoning,3
+112,Misrepresenting Authority,3
+112,Misusing Evidence,3
+113,Appealing to Emotion,3
+113,Distorting the Argument,3
+113,Exploiting Social Biases,3
+113,Flawed Reasoning,3
+113,Misusing Evidence,3
+114,Appealing to Emotion,3
+114,Distorting the Argument,3
+114,Exploiting Social Biases,3
+114,Flawed Reasoning,3
+114,Misusing Evidence,3
+115,Appealing to Emotion,3
+115,Distorting the Argument,3
+115,Exploiting Social Biases,3
+115,Flawed Reasoning,3
+115,Misusing Evidence,3
+116,Appealing to Emotion,3
+116,Distorting the Argument,3
+116,Flawed Reasoning,3
+116,Misusing Evidence,3
+117,Appealing to Emotion,3
+117,Distorting the Argument,3
+117,Exploiting Social Biases,3
+117,Flawed Reasoning,3
+117,Misrepresenting Authority,3
+117,Misusing Evidence,3
+118,Appealing to Emotion,3
+118,Distorting the Argument,3
+118,Exploiting Social Biases,3
+118,Flawed Reasoning,3
+118,Misrepresenting Authority,3
+118,Misusing Evidence,3
+119,Appealing to Emotion,3
+119,Distorting the Argument,3
+119,Exploiting Social Biases,3
+119,Flawed Reasoning,3
+119,Manipulative Language,3
+119,Misrepresenting Authority,3
+119,Misusing Evidence,3
+120,Appealing to Emotion,3
+120,Distorting the Argument,3
+120,Exploiting Social Biases,3
+120,Flawed Reasoning,3
+120,Misrepresenting Authority,3
+120,Misusing Evidence,3
+121,Appealing to Emotion,3
+121,Distorting the Argument,3
+121,Exploiting Social Biases,3
+121,Flawed Reasoning,3
+121,Misusing Evidence,3
+122,Appealing to Emotion,3
+122,Distorting the Argument,3
+122,Exploiting Social Biases,3
+122,Flawed Reasoning,3
+122,Manipulative Language,3
+122,Misusing Evidence,3
+122,No Deception,3
+123,Appealing to Emotion,3
+123,Distorting the Argument,3
+123,Exploiting Social Biases,3
+123,Flawed Reasoning,3
+123,Misusing Evidence,3
+124,Appealing to Emotion,3
+124,Distorting the Argument,3
+124,Exploiting Social Biases,3
+124,Flawed Reasoning,3
+124,Misusing Evidence,3
+124,No Deception,3
+125,Appealing to Emotion,3
+125,Distorting the Argument,3
+125,Exploiting Social Biases,3
+125,Flawed Reasoning,3
+125,Manipulative Language,3
+125,Misrepresenting Authority,3
+125,Misusing Evidence,3
+126,Appealing to Emotion,3
+126,Distorting the Argument,3
+126,Exploiting Social Biases,3
+126,Flawed Reasoning,3
+126,Misrepresenting Authority,3
+126,Misusing Evidence,3
+127,Appealing to Emotion,3
+127,Distorting the Argument,3
+127,Exploiting Social Biases,3
+127,Flawed Reasoning,3
+127,Misusing Evidence,3
+128,Appealing to Emotion,3
+128,Distorting the Argument,3
+128,Exploiting Social Biases,3
+128,Flawed Reasoning,3
+128,Misusing Evidence,3
+129,Appealing to Emotion,3
+129,Distorting the Argument,3
+129,Exploiting Social Biases,3
+129,Flawed Reasoning,3
+129,Misrepresenting Authority,3
+129,Misusing Evidence,3
+130,Appealing to Emotion,3
+130,Distorting the Argument,3
+130,Flawed Reasoning,3
+130,Misusing Evidence,3
+131,Appealing to Emotion,3
+131,Distorting the Argument,3
+131,Exploiting Social Biases,3
+131,Flawed Reasoning,3
+131,Misusing Evidence,3
+132,Appealing to Emotion,3
+132,Distorting the Argument,3
+132,Exploiting Social Biases,3
+132,Flawed Reasoning,3
+132,Misusing Evidence,3
+133,Appealing to Emotion,3
+133,Distorting the Argument,3
+133,Exploiting Social Biases,3
+133,Flawed Reasoning,3
+133,Misrepresenting Authority,3
+133,Misusing Evidence,3
+134,Appealing to Emotion,3
+134,Distorting the Argument,3
+134,Exploiting Social Biases,3
+134,Flawed Reasoning,3
+134,Misusing Evidence,3
+134,No Deception,3
+135,Appealing to Emotion,3
+135,Distorting the Argument,3
+135,Exploiting Social Biases,3
+135,Flawed Reasoning,3
+135,Misusing Evidence,3
+136,Appealing to Emotion,3
+136,Distorting the Argument,3
+136,Exploiting Social Biases,3
+136,Flawed Reasoning,3
+136,Misrepresenting Authority,3
+136,Misusing Evidence,3
+137,Appealing to Emotion,3
+137,Distorting the Argument,3
+137,Exploiting Social Biases,3
+137,Misusing Evidence,3
+137,No Deception,3
+138,Appealing to Emotion,3
+138,Distorting the Argument,3
+138,Exploiting Social Biases,3
+138,Flawed Reasoning,3
+138,Misrepresenting Authority,3
+138,Misusing Evidence,3
+139,Appealing to Emotion,3
+139,Distorting the Argument,3
+139,Exploiting Social Biases,3
+139,Flawed Reasoning,3
+139,Manipulative Language,3
+139,Misrepresenting Authority,3
+139,Misusing Evidence,3
+140,Appealing to Emotion,3
+140,Distorting the Argument,3
+140,Flawed Reasoning,3
+140,Misrepresenting Authority,3
+140,Misusing Evidence,3
+141,Appealing to Emotion,3
+141,Distorting the Argument,3
+141,Exploiting Social Biases,3
+141,Flawed Reasoning,3
+141,Manipulative Language,3
+141,Misrepresenting Authority,3
+141,Misusing Evidence,3
+142,Appealing to Emotion,3
+142,Exploiting Social Biases,3
+142,Flawed Reasoning,3
+142,Misusing Evidence,3
+143,Appealing to Emotion,3
+143,Distorting the Argument,3
+143,Flawed Reasoning,3
+143,Misusing Evidence,3
+144,Appealing to Emotion,3
+144,Distorting the Argument,3
+144,Exploiting Social Biases,3
+144,Flawed Reasoning,3
+144,Misusing Evidence,3
+144,No Deception,3
+145,Appealing to Emotion,3
+145,Distorting the Argument,3
+145,Exploiting Social Biases,3
+145,Flawed Reasoning,3
+145,Manipulative Language,3
+145,Misrepresenting Authority,3
+145,Misusing Evidence,3
+146,Appealing to Emotion,3
+146,Distorting the Argument,3
+146,Exploiting Social Biases,3
+146,Flawed Reasoning,3
+146,Manipulative Language,3
+146,Misrepresenting Authority,3
+146,Misusing Evidence,3
+147,Appealing to Emotion,3
+147,Distorting the Argument,3
+147,Exploiting Social Biases,3
+147,Flawed Reasoning,3
+147,Misusing Evidence,3
+148,Appealing to Emotion,3
+148,Distorting the Argument,3
+148,Exploiting Social Biases,3
+148,Flawed Reasoning,3
+148,Misusing Evidence,3
+148,No Deception,3
+149,Appealing to Emotion,3
+149,Distorting the Argument,3
+149,Exploiting Social Biases,3
+149,Flawed Reasoning,3
+149,Misrepresenting Authority,3
+149,Misusing Evidence,3
+150,Appealing to Emotion,3
+150,Flawed Reasoning,3
+150,Misusing Evidence,3
+150,No Deception,3
+151,Appealing to Emotion,3
+151,Distorting the Argument,3
+151,Exploiting Social Biases,3
+151,Flawed Reasoning,3
+151,Misrepresenting Authority,3
+151,Misusing Evidence,3
+152,Appealing to Emotion,3
+152,Distorting the Argument,3
+152,Exploiting Social Biases,3
+152,Flawed Reasoning,3
+152,Misusing Evidence,3
+152,No Deception,3
+153,Appealing to Emotion,3
+153,Distorting the Argument,3
+153,Exploiting Social Biases,3
+153,Flawed Reasoning,3
+153,Misrepresenting Authority,3
+153,Misusing Evidence,3
+154,Appealing to Emotion,3
+154,Distorting the Argument,3
+154,Exploiting Social Biases,3
+154,Flawed Reasoning,3
+154,Misusing Evidence,3
+155,Appealing to Emotion,3
+155,Distorting the Argument,3
+155,Flawed Reasoning,3
+155,Misusing Evidence,3
+156,Appealing to Emotion,3
+156,Distorting the Argument,3
+156,Flawed Reasoning,3
+156,Manipulative Language,3
+156,Misusing Evidence,3
+157,Appealing to Emotion,3
+157,Distorting the Argument,3
+157,Flawed Reasoning,3
+157,Misusing Evidence,3
+158,Appealing to Emotion,3
+158,Distorting the Argument,3
+158,Exploiting Social Biases,3
+158,Flawed Reasoning,3
+158,Misrepresenting Authority,3
+158,Misusing Evidence,3
+159,Appealing to Emotion,3
+159,Distorting the Argument,3
+159,Exploiting Social Biases,3
+159,Flawed Reasoning,3
+159,Misrepresenting Authority,3
+159,Misusing Evidence,3
+160,Appealing to Emotion,3
+160,Distorting the Argument,3
+160,Exploiting Social Biases,3
+160,Flawed Reasoning,3
+160,Misusing Evidence,3
+161,Appealing to Emotion,3
+161,Distorting the Argument,3
+161,Exploiting Social Biases,3
+161,Flawed Reasoning,3
+161,Misrepresenting Authority,3
+161,Misusing Evidence,3
+162,Appealing to Emotion,3
+162,Distorting the Argument,3
+162,Flawed Reasoning,3
+163,Appealing to Emotion,3
+163,Distorting the Argument,3
+163,Flawed Reasoning,3
+163,Misusing Evidence,3
+164,Appealing to Emotion,3
+164,Distorting the Argument,3
+164,Exploiting Social Biases,3
+164,Flawed Reasoning,3
+164,Misusing Evidence,3
+165,Appealing to Emotion,3
+165,Distorting the Argument,3
+165,Exploiting Social Biases,3
+165,Flawed Reasoning,3
+165,Misusing Evidence,3
+166,Appealing to Emotion,3
+166,Distorting the Argument,3
+166,Flawed Reasoning,3
+166,Misrepresenting Authority,3
+166,Misusing Evidence,3
+167,Appealing to Emotion,3
+167,Distorting the Argument,3
+167,Exploiting Social Biases,3
+167,Flawed Reasoning,3
+168,Distorting the Argument,3
+168,Exploiting Social Biases,3
+168,Flawed Reasoning,3
+169,Appealing to Emotion,3
+169,Distorting the Argument,3
+169,Flawed Reasoning,3
+169,Misusing Evidence,3
+170,Appealing to Emotion,3
+170,Distorting the Argument,3
+170,Flawed Reasoning,3
+170,Misusing Evidence,3
+171,Appealing to Emotion,3
+171,Distorting the Argument,3
+171,Flawed Reasoning,3
+171,Misusing Evidence,3
+172,Appealing to Emotion,3
+172,Distorting the Argument,3
+172,Exploiting Social Biases,3
+172,Flawed Reasoning,3
+172,Misusing Evidence,3
+173,Appealing to Emotion,3
+173,Distorting the Argument,3
+173,Exploiting Social Biases,3
+173,Flawed Reasoning,3
+173,Misusing Evidence,3
+174,Appealing to Emotion,3
+174,Distorting the Argument,3
+174,Exploiting Social Biases,3
+174,Flawed Reasoning,3
+174,Misrepresenting Authority,3
+174,Misusing Evidence,3
+175,Appealing to Emotion,3
+175,Distorting the Argument,3
+175,Exploiting Social Biases,3
+175,Flawed Reasoning,3
+175,Misusing Evidence,3
+176,Appealing to Emotion,3
+176,Distorting the Argument,3
+176,Exploiting Social Biases,3
+176,Flawed Reasoning,3
+176,Misrepresenting Authority,3
+176,Misusing Evidence,3
+177,Appealing to Emotion,3
+177,Distorting the Argument,3
+177,Flawed Reasoning,3
+178,Appealing to Emotion,3
+178,Distorting the Argument,3
+178,Exploiting Social Biases,3
+178,Flawed Reasoning,3
+178,Misrepresenting Authority,3
+178,Misusing Evidence,3
+178,No Deception,3
+179,Appealing to Emotion,3
+179,Distorting the Argument,3
+179,Exploiting Social Biases,3
+179,Flawed Reasoning,3
+179,Misusing Evidence,3
+180,Appealing to Emotion,3
+180,Distorting the Argument,3
+180,Exploiting Social Biases,3
+180,Flawed Reasoning,3
+180,Manipulative Language,3
+180,Misusing Evidence,3
+181,Appealing to Emotion,3
+181,Distorting the Argument,3
+181,Exploiting Social Biases,3
+181,Flawed Reasoning,3
+181,No Deception,3
+182,Appealing to Emotion,3
+182,Distorting the Argument,3
+182,Exploiting Social Biases,3
+182,Flawed Reasoning,3
+182,Misrepresenting Authority,3
+182,Misusing Evidence,3
+183,Appealing to Emotion,3
+183,Distorting the Argument,3
+183,Flawed Reasoning,3
+183,Misusing Evidence,3
+184,Appealing to Emotion,3
+184,Distorting the Argument,3
+184,Exploiting Social Biases,3
+184,Flawed Reasoning,3
+185,Appealing to Emotion,3
+185,Distorting the Argument,3
+185,Exploiting Social Biases,3
+185,Flawed Reasoning,3
+185,Misrepresenting Authority,3
+185,Misusing Evidence,3
+186,Appealing to Emotion,3
+186,Distorting the Argument,3
+186,Exploiting Social Biases,3
+186,Flawed Reasoning,3
+186,Manipulative Language,3
+186,Misrepresenting Authority,3
+186,Misusing Evidence,3
+187,Distorting the Argument,3
+187,Exploiting Social Biases,3
+187,Flawed Reasoning,3
+187,Misrepresenting Authority,3
+187,Misusing Evidence,3
+188,Appealing to Emotion,3
+188,Distorting the Argument,3
+188,Exploiting Social Biases,3
+188,Flawed Reasoning,3
+188,Misrepresenting Authority,3
+188,Misusing Evidence,3
+189,Appealing to Emotion,3
+189,Distorting the Argument,3
+189,Exploiting Social Biases,3
+189,Flawed Reasoning,3
+189,Misrepresenting Authority,3
+189,Misusing Evidence,3
+189,No Deception,3
+190,Appealing to Emotion,3
+190,Distorting the Argument,3
+190,Flawed Reasoning,3
+190,Misusing Evidence,3
+191,Appealing to Emotion,3
+191,Distorting the Argument,3
+191,Exploiting Social Biases,3
+191,Flawed Reasoning,3
+191,Misusing Evidence,3
+192,Appealing to Emotion,3
+192,Distorting the Argument,3
+192,Exploiting Social Biases,3
+192,Flawed Reasoning,3
+192,Misrepresenting Authority,3
+192,Misusing Evidence,3
+193,Appealing to Emotion,3
+193,Distorting the Argument,3
+193,Exploiting Social Biases,3
+193,Flawed Reasoning,3
+193,Misusing Evidence,3
+194,Appealing to Emotion,3
+194,Distorting the Argument,3
+194,Exploiting Social Biases,3
+194,Flawed Reasoning,3
+194,Manipulative Language,3
+194,Misusing Evidence,3
+195,Appealing to Emotion,3
+195,Distorting the Argument,3
+195,Exploiting Social Biases,3
+195,Flawed Reasoning,3
+195,Misusing Evidence,3
+196,Appealing to Emotion,3
+196,Distorting the Argument,3
+196,Exploiting Social Biases,3
+196,Flawed Reasoning,3
+196,Misusing Evidence,3
+197,Appealing to Emotion,3
+197,Distorting the Argument,3
+197,Flawed Reasoning,3
+197,Manipulative Language,3
+198,Appealing to Emotion,3
+198,Distorting the Argument,3
+198,Exploiting Social Biases,3
+198,Flawed Reasoning,3
+198,Misusing Evidence,3
+199,Appealing to Emotion,3
+199,Distorting the Argument,3
+199,Flawed Reasoning,3
+199,Misusing Evidence,3
+200,Appealing to Emotion,3
+200,Distorting the Argument,3
+200,Exploiting Social Biases,3
+200,Flawed Reasoning,3
+200,Misusing Evidence,3
+200,No Deception,3
+201,Appealing to Emotion,3
+201,Distorting the Argument,3
+201,Exploiting Social Biases,3
+201,Flawed Reasoning,3
+201,Misusing Evidence,3
+202,Appealing to Emotion,3
+202,Distorting the Argument,3
+202,Exploiting Social Biases,3
+202,Flawed Reasoning,3
+202,Misusing Evidence,3
+203,Appealing to Emotion,3
+203,Distorting the Argument,3
+203,Exploiting Social Biases,3
+203,Flawed Reasoning,3
+203,Manipulative Language,3
+203,Misrepresenting Authority,3
+203,Misusing Evidence,3
+203,No Deception,3
+204,Appealing to Emotion,3
+204,Distorting the Argument,3
+204,Exploiting Social Biases,3
+204,Flawed Reasoning,3
+204,Manipulative Language,3
+204,Misusing Evidence,3
+205,Appealing to Emotion,3
+205,Distorting the Argument,3
+205,Exploiting Social Biases,3
+205,Flawed Reasoning,3
+205,Misrepresenting Authority,3
+205,Misusing Evidence,3
+206,Appealing to Emotion,3
+206,Distorting the Argument,3
+206,Flawed Reasoning,3
+206,Misusing Evidence,3
+207,Appealing to Emotion,3
+207,Distorting the Argument,3
+207,Exploiting Social Biases,3
+207,Flawed Reasoning,3
+207,Misusing Evidence,3
+208,Appealing to Emotion,3
+208,Distorting the Argument,3
+208,Exploiting Social Biases,3
+208,Flawed Reasoning,3
+208,Misusing Evidence,3
+209,Appealing to Emotion,3
+209,Distorting the Argument,3
+209,Exploiting Social Biases,3
+209,Flawed Reasoning,3
+209,Misrepresenting Authority,3
+209,Misusing Evidence,3
+210,Appealing to Emotion,3
+210,Distorting the Argument,3
+210,Exploiting Social Biases,3
+210,Flawed Reasoning,3
+210,Misrepresenting Authority,3
+210,Misusing Evidence,3
+210,No Deception,3
+211,Appealing to Emotion,3
+211,Distorting the Argument,3
+211,Exploiting Social Biases,3
+211,Flawed Reasoning,3
+211,Misrepresenting Authority,3
+211,Misusing Evidence,3
+211,No Deception,3
+212,Appealing to Emotion,3
+212,Distorting the Argument,3
+212,Exploiting Social Biases,3
+212,Flawed Reasoning,3
+212,Manipulative Language,3
+212,Misrepresenting Authority,3
+212,Misusing Evidence,3
+213,Appealing to Emotion,3
+213,Distorting the Argument,3
+213,Exploiting Social Biases,3
+213,Flawed Reasoning,3
+213,Manipulative Language,3
+213,Misrepresenting Authority,3
+213,Misusing Evidence,3
+214,Appealing to Emotion,3
+214,Distorting the Argument,3
+214,Flawed Reasoning,3
+214,Misusing Evidence,3
+215,Appealing to Emotion,3
+215,Distorting the Argument,3
+215,Exploiting Social Biases,3
+215,Flawed Reasoning,3
+215,Misusing Evidence,3
+216,Appealing to Emotion,3
+216,Distorting the Argument,3
+216,Exploiting Social Biases,3
+216,Flawed Reasoning,3
+216,Misrepresenting Authority,3
+216,Misusing Evidence,3
+217,Appealing to Emotion,3
+217,Distorting the Argument,3
+217,Exploiting Social Biases,3
+217,Flawed Reasoning,3
+217,Misusing Evidence,3
+218,Appealing to Emotion,3
+218,Distorting the Argument,3
+218,Exploiting Social Biases,3
+218,Flawed Reasoning,3
+218,Misusing Evidence,3
+219,Appealing to Emotion,3
+219,Distorting the Argument,3
+219,Exploiting Social Biases,3
+219,Flawed Reasoning,3
+219,Misusing Evidence,3
+220,Appealing to Emotion,3
+220,Distorting the Argument,3
+220,Exploiting Social Biases,3
+220,Flawed Reasoning,3
+220,Misusing Evidence,3
+220,No Deception,3
+221,Appealing to Emotion,3
+221,Distorting the Argument,3
+221,Exploiting Social Biases,3
+221,Flawed Reasoning,3
+221,Misrepresenting Authority,3
+221,Misusing Evidence,3
+222,Appealing to Emotion,3
+222,Distorting the Argument,3
+222,Exploiting Social Biases,3
+222,Flawed Reasoning,3
+222,Misusing Evidence,3
+223,Appealing to Emotion,3
+223,Distorting the Argument,3
+223,Exploiting Social Biases,3
+223,Flawed Reasoning,3
+223,Misusing Evidence,3
+224,Appealing to Emotion,3
+224,Distorting the Argument,3
+224,Flawed Reasoning,3
+224,Manipulative Language,3
+224,Misusing Evidence,3
+225,Appealing to Emotion,3
+225,Distorting the Argument,3
+225,Exploiting Social Biases,3
+225,Flawed Reasoning,3
+225,Misusing Evidence,3
+226,Appealing to Emotion,3
+226,Distorting the Argument,3
+226,Exploiting Social Biases,3
+226,Flawed Reasoning,3
+226,Manipulative Language,3
+226,Misusing Evidence,3
+227,Appealing to Emotion,3
+227,Distorting the Argument,3
+227,Exploiting Social Biases,3
+227,Flawed Reasoning,3
+227,Misrepresenting Authority,3
+227,Misusing Evidence,3
+228,Appealing to Emotion,3
+228,Distorting the Argument,3
+228,Exploiting Social Biases,3
+228,Flawed Reasoning,3
+228,Misrepresenting Authority,3
+228,Misusing Evidence,3
+229,Appealing to Emotion,3
+229,Distorting the Argument,3
+229,Flawed Reasoning,3
+229,Manipulative Language,3
+229,Misusing Evidence,3
+230,Appealing to Emotion,3
+230,Distorting the Argument,3
+230,Exploiting Social Biases,3
+230,Flawed Reasoning,3
+230,Misrepresenting Authority,3
+230,Misusing Evidence,3
+231,Appealing to Emotion,3
+231,Distorting the Argument,3
+231,Exploiting Social Biases,3
+231,Flawed Reasoning,3
+231,Misrepresenting Authority,3
+231,Misusing Evidence,3
+232,Appealing to Emotion,3
+232,Distorting the Argument,3
+232,Flawed Reasoning,3
+232,Manipulative Language,3
+232,Misrepresenting Authority,3
+232,Misusing Evidence,3
+232,No Deception,3
+233,Appealing to Emotion,3
+233,Distorting the Argument,3
+233,Exploiting Social Biases,3
+233,Flawed Reasoning,3
+233,Misusing Evidence,3
+234,Appealing to Emotion,3
+234,Distorting the Argument,3
+234,Exploiting Social Biases,3
+234,Flawed Reasoning,3
+234,Misusing Evidence,3
+235,Appealing to Emotion,3
+235,Distorting the Argument,3
+235,Exploiting Social Biases,3
+235,Flawed Reasoning,3
+235,Misrepresenting Authority,3
+235,Misusing Evidence,3
+236,Appealing to Emotion,3
+236,Distorting the Argument,3
+236,Flawed Reasoning,3
+236,Manipulative Language,3
+236,Misrepresenting Authority,3
+236,Misusing Evidence,3
+237,Appealing to Emotion,3
+237,Distorting the Argument,3
+237,Exploiting Social Biases,3
+237,Flawed Reasoning,3
+237,Misusing Evidence,3
+237,No Deception,3
+238,Appealing to Emotion,3
+238,Distorting the Argument,3
+238,Exploiting Social Biases,3
+238,Flawed Reasoning,3
+238,Misrepresenting Authority,3
+238,Misusing Evidence,3
+239,Appealing to Emotion,3
+239,Distorting the Argument,3
+239,Exploiting Social Biases,3
+239,Flawed Reasoning,3
+239,Manipulative Language,3
+239,Misusing Evidence,3
+240,Appealing to Emotion,3
+240,Distorting the Argument,3
+240,Exploiting Social Biases,3
+240,Flawed Reasoning,3
+240,Misrepresenting Authority,3
+240,Misusing Evidence,3
+241,Appealing to Emotion,3
+241,Distorting the Argument,3
+241,Exploiting Social Biases,3
+241,Flawed Reasoning,3
+241,Manipulative Language,3
+241,Misrepresenting Authority,3
+241,Misusing Evidence,3
+242,Appealing to Emotion,3
+242,Distorting the Argument,3
+242,Exploiting Social Biases,3
+242,Flawed Reasoning,3
+242,Misrepresenting Authority,3
+242,Misusing Evidence,3
+243,Appealing to Emotion,3
+243,Distorting the Argument,3
+243,Flawed Reasoning,3
+243,Misusing Evidence,3
+244,Appealing to Emotion,3
+244,Distorting the Argument,3
+244,Exploiting Social Biases,3
+244,Flawed Reasoning,3
+244,Misrepresenting Authority,3
+244,Misusing Evidence,3
+245,Appealing to Emotion,3
+245,Distorting the Argument,3
+245,Flawed Reasoning,3
+245,Misusing Evidence,3
+246,Appealing to Emotion,3
+246,Distorting the Argument,3
+246,Exploiting Social Biases,3
+246,Flawed Reasoning,3
+246,Misrepresenting Authority,3
+246,Misusing Evidence,3
+247,Appealing to Emotion,3
+247,Distorting the Argument,3
+247,Exploiting Social Biases,3
+247,Flawed Reasoning,3
+247,Misrepresenting Authority,3
+247,Misusing Evidence,3
+248,Appealing to Emotion,3
+248,Distorting the Argument,3
+248,Flawed Reasoning,3
+248,Manipulative Language,3
+248,Misusing Evidence,3
+248,No Deception,3
+249,Appealing to Emotion,3
+249,Distorting the Argument,3
+249,Exploiting Social Biases,3
+249,Flawed Reasoning,3
+250,Appealing to Emotion,3
+250,Distorting the Argument,3
+250,Exploiting Social Biases,3
+250,Flawed Reasoning,3
+250,Misusing Evidence,3
+251,Appealing to Emotion,3
+251,Distorting the Argument,3
+251,Exploiting Social Biases,3
+251,Flawed Reasoning,3
+251,Manipulative Language,3
+251,Misusing Evidence,3
+252,Appealing to Emotion,3
+252,Distorting the Argument,3
+252,Exploiting Social Biases,3
+252,Flawed Reasoning,3
+252,Misusing Evidence,3
+253,Appealing to Emotion,3
+253,Distorting the Argument,3
+253,Exploiting Social Biases,3
+253,Flawed Reasoning,3
+253,Manipulative Language,3
+253,Misrepresenting Authority,3
+253,Misusing Evidence,3
+254,Appealing to Emotion,3
+254,Distorting the Argument,3
+254,Flawed Reasoning,3
+254,Misusing Evidence,3
+255,Appealing to Emotion,3
+255,Distorting the Argument,3
+255,Exploiting Social Biases,3
+255,Flawed Reasoning,3
+256,Appealing to Emotion,3
+256,Distorting the Argument,3
+256,Exploiting Social Biases,3
+256,Flawed Reasoning,3
+256,Misusing Evidence,3
+257,Appealing to Emotion,3
+257,Distorting the Argument,3
+257,Flawed Reasoning,3
+257,Misusing Evidence,3
+258,Appealing to Emotion,3
+258,Distorting the Argument,3
+258,Exploiting Social Biases,3
+258,Flawed Reasoning,3
+258,Misusing Evidence,3
+258,No Deception,3
+259,Appealing to Emotion,3
+259,Distorting the Argument,3
+259,Flawed Reasoning,3
+259,Misrepresenting Authority,3
+259,Misusing Evidence,3
+260,Appealing to Emotion,3
+260,Distorting the Argument,3
+260,Exploiting Social Biases,3
+260,Flawed Reasoning,3
+260,Misusing Evidence,3
+260,No Deception,3
+261,Distorting the Argument,3
+261,Exploiting Social Biases,3
+261,Flawed Reasoning,3
+261,Misrepresenting Authority,3
+261,Misusing Evidence,3
+262,Appealing to Emotion,3
+262,Distorting the Argument,3
+262,Exploiting Social Biases,3
+262,Flawed Reasoning,3
+262,Misusing Evidence,3
+263,Appealing to Emotion,3
+263,Distorting the Argument,3
+263,Flawed Reasoning,3
+263,Misusing Evidence,3
+264,Appealing to Emotion,3
+264,Distorting the Argument,3
+264,Exploiting Social Biases,3
+264,Flawed Reasoning,3
+264,Misusing Evidence,3
+265,Appealing to Emotion,3
+265,Distorting the Argument,3
+265,Exploiting Social Biases,3
+265,Flawed Reasoning,3
+265,Misusing Evidence,3
+266,Appealing to Emotion,3
+266,Distorting the Argument,3
+266,Exploiting Social Biases,3
+266,Flawed Reasoning,3
+266,Misrepresenting Authority,3
+266,Misusing Evidence,3
+266,No Deception,3
+267,Appealing to Emotion,3
+267,Distorting the Argument,3
+267,Flawed Reasoning,3
+267,Misusing Evidence,3
+268,Appealing to Emotion,3
+268,Distorting the Argument,3
+268,Exploiting Social Biases,3
+268,Flawed Reasoning,3
+268,Misrepresenting Authority,3
+268,Misusing Evidence,3
+268,No Deception,3
+269,Appealing to Emotion,3
+269,Distorting the Argument,3
+269,Exploiting Social Biases,3
+269,Flawed Reasoning,3
+269,Manipulative Language,3
+269,Misrepresenting Authority,3
+269,Misusing Evidence,3
+270,Appealing to Emotion,3
+270,Distorting the Argument,3
+270,Exploiting Social Biases,3
+270,Flawed Reasoning,3
+270,Misrepresenting Authority,3
+270,Misusing Evidence,3
+271,Appealing to Emotion,3
+271,Distorting the Argument,3
+271,Exploiting Social Biases,3
+271,Flawed Reasoning,3
+271,Misrepresenting Authority,3
+271,Misusing Evidence,3
+271,No Deception,3
+272,Appealing to Emotion,3
+272,Distorting the Argument,3
+272,Exploiting Social Biases,3
+272,Flawed Reasoning,3
+272,Misrepresenting Authority,3
+272,Misusing Evidence,3
+272,No Deception,3
+273,Appealing to Emotion,3
+273,Distorting the Argument,3
+273,Flawed Reasoning,3
+274,Appealing to Emotion,3
+274,Distorting the Argument,3
+274,Exploiting Social Biases,3
+274,Flawed Reasoning,3
+274,Misusing Evidence,3
+275,Appealing to Emotion,3
+275,Distorting the Argument,3
+275,Flawed Reasoning,3
+275,Misrepresenting Authority,3
+275,Misusing Evidence,3
+276,Appealing to Emotion,3
+276,Distorting the Argument,3
+276,Exploiting Social Biases,3
+276,Flawed Reasoning,3
+276,Misusing Evidence,3
+277,Appealing to Emotion,3
+277,Distorting the Argument,3
+277,Exploiting Social Biases,3
+277,Flawed Reasoning,3
+277,Misrepresenting Authority,3
+277,Misusing Evidence,3
+278,Appealing to Emotion,3
+278,Distorting the Argument,3
+278,Flawed Reasoning,3
+278,Misusing Evidence,3
+279,Appealing to Emotion,3
+279,Distorting the Argument,3
+279,Exploiting Social Biases,3
+279,Flawed Reasoning,3
+279,Misrepresenting Authority,3
+279,Misusing Evidence,3
+279,No Deception,3

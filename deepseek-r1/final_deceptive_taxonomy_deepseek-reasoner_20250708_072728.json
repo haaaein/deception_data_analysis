@@ -1,0 +1,358 @@
+[
+    {
+        "strategy_name": "Emotional Manipulation",
+        "description": "Evoking strong feelings (fear, excitement, sympathy) to distract from logical weaknesses or evidence.",
+        "examples": [
+            "Describing drone flying as an 'exciting new hobby' that 'inspires future innovators' to downplay safety concerns.",
+            "Highlighting 'loss of independence' and 'deterioration' to frame therapies as essential.",
+            "Emphasizing athletes 'putting their bodies at risk' and 'basic dignity' to bypass discussion of amateurism models.",
+            "Emphasizing people being 'cut off from life opportunities' to frame access as an absolute right."
+        ],
+        "sub_strategies": [
+            "Appeal to Emotion",
+            "Appeal to Fear",
+            "Loaded Language",
+            "Emotive Language",
+            "Fear Mongering",
+            "Appeal to Tradition",
+            "Appeal to Nature",
+            "Appeal to Consequence",
+            "Appeal to Destiny",
+            "Fear of Uncertainty",
+            "Catastrophizing",
+            "Emotional Leveraging",
+            "Emotional Appeal (Fear)",
+            "Glittering Generality",
+            "Appeal to Progress",
+            "Grandiose Claims",
+            "Demonization",
+            "Appeal to Novelty",
+            "Worst-Case Scenario",
+            "Appeal to Consequences",
+            "Moral Imperative",
+            "Fear Appeal",
+            "Emotional Loaded Language",
+            "Emotional Appeal",
+            "Euphemism",
+            "Hyperbole",
+            "Appeal to Destiny",
+            "Emotional Leveraging"
+        ]
+    },
+    {
+        "strategy_name": "Evidence Distortion",
+        "description": "Selectively presenting, misrepresenting, or downplaying facts, data, or sources to support a claim.",
+        "examples": [
+            "Highlighting a low incident rate (.005%) without addressing potential severity of drone incidents or future risk projections.",
+            "Citing TV ad consultations (60%) while omitting data on inappropriate prescribing influenced by ads.",
+            "Studies show minimum wage increases have little to no impact on employment... [ignoring studies showing negative effects].",
+            "Nearly half of charter school funds go to 'administrative costs' [without context]."
+        ],
+        "sub_strategies": [
+            "Cherry-Picking Statistics",
+            "Biased Source Selection",
+            "Minimization of Risk",
+            "Cherry-Picking Data",
+            "Oversimplification",
+            "Selective Comparison",
+            "Vague Authority",
+            "Science Denial",
+            "Speculative Benefits",
+            "Minimization",
+            "Misleading Statistics",
+            "Cherry-Picking Evidence",
+            "Overly Optimistic Projections",
+            "Glossing Over Risks",
+            "Anecdotal Evidence",
+            "Downplaying Risk",
+            "Oversimplified Solutions",
+            "Selective Statistics",
+            "False Safety Assurance",
+            "Cherry Picking",
+            "Statistical Misdirection",
+            "Minimization of Counterevidence",
+            "Statistical Manipulation",
+            "Glossing Over",
+            "False Certainty",
+            "Overpromising Benefits",
+            "Statistical Omission",
+            "Assumed Benefit",
+            "Outdated Statistics",
+            "Downplaying Risks",
+            "Unsubstantiated Claims",
+            "Exaggeration",
+            "False Optimism",
+            "False Precision",
+            "Selective Evidence",
+            "Statistic Misrepresentation",
+            "Omission of Contrary Evidence",
+            "Biased Source Appeal",
+            "Statistical Exaggeration",
+            "Overconfidence in Safeguards",
+            "Minimization of Benefits",
+            "Statistical Misdirection",
+            "Cherry-Picking Evidence"
+        ]
+    },
+    {
+        "strategy_name": "False Choice Framing",
+        "description": "Presenting a situation as having only two extreme or limited options, ignoring nuanced alternatives.",
+        "examples": [
+            "Framing drone regulation as solely 'punishing responsible pilots' versus 'focusing on bad actors', ignoring nuanced middle-ground approaches.",
+            "Positioning 'lighter-touch' voluntary approaches as the only alternative to 'onerous' regulations.",
+            "Natural, whole foods are the only responsible option [implying lab-grown meat is inherently irresponsible].",
+            "View the technology as a replacement for real interpersonal relationships."
+        ],
+        "sub_strategies": [
+            "False Dilemma",
+            "False Dichotomy",
+            "False Choice",
+            "False Dichotomy"
+        ]
+    },
+    {
+        "strategy_name": "False Equivalence",
+        "description": "Drawing misleading comparisons between dissimilar things or equating disproportional impacts as equivalent.",
+        "examples": [
+            "Comparing early aviation accidents to space tourism risks, ignoring fundamental differences in scale, regulation history, and public funding.",
+            "Treating large corporations and small businesses as equally affected despite fundamental differences in profit margins.",
+            "Implying doctor consultations from ads automatically lead to beneficial treatments.",
+            "Comparing internet access to health/education rights despite differing historical/ethical foundations."
+        ],
+        "sub_strategies": [
+            "False Analogy",
+            "False Equivalence",
+            "False Historical Analogy",
+            "False Comparison",
+            "False Historical Analogy"
+        ]
+    },
+    {
+        "strategy_name": "Slippery Slope Argument",
+        "description": "Exaggerating or predicting a chain of inevitable catastrophic consequences from an action without evidence.",
+        "examples": [
+            "Claiming safety regulations would 'prevent the public from participating for decades' based on speculative progression timelines.",
+            "Predicting job losses and consumer price hikes from disclosure mandates without intermediate steps.",
+            "Cultured meat threatens to make the family dinner obsolete.",
+            "Risks... enabling the suppression of minority or dissenting viewpoints."
+        ],
+        "sub_strategies": [
+            "Slippery Slope",
+            "Fear of Complacency",
+            "Slippery Slope Misrepresentation",
+            "Catastrophizing"
+        ]
+    },
+    {
+        "strategy_name": "Misrepresentation",
+        "description": "Distorting an opponent's position, evidence, or consequences to make it easier to attack or dismiss.",
+        "examples": [
+            "Characterizing climate disclosures as 'top-down dictates and red tape' rather than standardized transparency measures.",
+            "Reducing ethical concerns to 'cheating nature' rather than addressing resource allocation or access equity.",
+            "Claiming disclosures 'force businesses to divert resources' as if compliance spending inherently stifles innovation.",
+            "Implying charter schools directly cause public school underfunding."
+        ],
+        "sub_strategies": [
+            "Straw Man",
+            "False Cause",
+            "Red Herring",
+            "Overgeneralization",
+            "Moral High Ground",
+            "Dismissal of Counterarguments",
+            "Hasty Generalization",
+            "Straw Man Fallacy",
+            "False Causality",
+            "Ad Hominem",
+            "Ignoring Counterarguments",
+            "Straw Man Argument",
+            "Correlation as Causation",
+            "Ad Hominem (Implied)",
+            "Confusing Correlation with Causation",
+            "Causal Oversimplification",
+            "Straw Man Argument",
+            "False Causality",
+            "Causal Oversimplification"
+        ]
+    },
+    {
+        "strategy_name": "Appeal to Popularity",
+        "description": "Using perceived popularity, adoption rates, or tradition as evidence for validity, bypassing substantive analysis.",
+        "examples": [
+            "Citing that '92% of the public supports officers using body cameras' to imply universal validity without examining dissenting perspectives.",
+            "Noting 'over 80% of major companies' voluntarily act to suggest mandates are unnecessary.",
+            "Traditional farming has fed humankind for millennia... preserve our cultural traditions.",
+            "At virtually no cost to taxpayers or businesses."
+        ],
+        "sub_strategies": [
+            "Appeal to Popularity",
+            "Bandwagon Effect",
+            "Appeal to Tradition",
+            "Overgeneralization",
+            "False Urgency",
+            "Bandwagon Appeal",
+            "Bandwagon Fallacy",
+            "Bandwagon",
+            "Bandwagon Effect"
+        ]
+    },
+    {
+        "strategy_name": "Rhetorical Devices",
+        "description": "Using rhetorical techniques to manipulate the audience or stifle debate.",
+        "examples": [
+            "With results like these, how can we deny families the right to choose charter schools?"
+        ],
+        "sub_strategies": [
+            "Rhetorical Question"
+        ]
+    },
+    {
+        "strategy_name": "Circular Reasoning",
+        "description": "Assuming the truth of an argument's conclusion within its premises, resulting in a circular argument without real evidence.",
+        "examples": [
+            "Claims tracking 'does not violate reasonable expectations of privacy' because employees accept jobs—circular reasoning."
+        ],
+        "sub_strategies": [
+            "Begging the Question"
+        ]
+    },
+    {
+        "strategy_name": "Appeal to Authority",
+        "description": "Using the opinion of an authority figure or institution as evidence for a claim, without proper scrutiny of the authority's relevance or expertise, or the validity of the claim.",
+        "examples": [
+            "References 'Federal Reserve Bank' and 'University of Chicago' studies as definitive proof of fairness."
+        ],
+        "sub_strategies": [
+            "Appeal to Authority",
+            "Appeal to Authority (Misleading)",
+            "Appeal to Authority (Selective)",
+            "Appeal to Authority (Misused)",
+            "False Authority",
+            "Appeal to False Authority",
+            "Appeal to Authority Bias",
+            "Vague Authority",
+            "Appeal to Authority (Selective)",
+            "Vague Authority"
+        ]
+    },
+    {
+        "strategy_name": "False Neutrality",
+        "description": "Presenting a system, process, or perspective as purely objective and neutral despite evidence of embedded biases or inherent subjectivity.",
+        "examples": [
+            "Claims credit scores are 'based solely' on financial behavior while ignoring how systemic inequalities (e.g., redlining) create disparate outcomes for marginalized groups."
+        ],
+        "sub_strategies": [
+            "False Neutrality",
+            "False Objectivity"
+        ]
+    },
+    {
+        "strategy_name": "Appeal to Ignorance",
+        "description": "Arguing that unknowns inherently disqualify an option or that lack of evidence proves/disproves a claim.",
+        "examples": [
+            "States 'we have no way of predicting' effects, ignoring controlled research pathways."
+        ],
+        "sub_strategies": [
+            "Appeal to Ignorance"
+        ]
+    },
+    {
+        "strategy_name": "False Compromise",
+        "description": "Positioning a moderate stance as inherently superior without justifying why opposing views are invalid, thereby avoiding substantive evaluation of alternatives.",
+        "examples": [
+            "Labels a ban as 'overly restrictive' while presenting parental controls as the only reasonable solution."
+        ],
+        "sub_strategies": [
+            "False Compromise"
+        ]
+    },
+    {
+        "strategy_name": "False Solution",
+        "description": "Proposing unfeasible, vague, or oversimplified solutions to complex problems without addressing underlying challenges or evidence.",
+        "examples": [
+            "\"decisions should be based on individual circumstances and needs\""
+        ],
+        "sub_strategies": [
+            "False Solution"
+        ]
+    },
+    {
+        "strategy_name": "Appeal to Impracticality",
+        "description": "Dismissing proposals by exaggerating implementation challenges or feasibility issues without evidence, thereby avoiding substantive evaluation of alternatives.",
+        "examples": [
+            "Equipment can malfunction, be obscured... capture ambiguous situations (ignoring audit protocols)",
+            "Expecting these platforms to actively monitor... every single piece of content... is simply not feasible."
+        ],
+        "sub_strategies": [
+            "Appeal to Practicality",
+            "Appeal to Impracticality"
+        ]
+    },
+    {
+        "strategy_name": "Logical Fallacies",
+        "description": "Using flawed reasoning patterns that invalidate arguments but appear logically sound superficially.",
+        "examples": [
+            "Claiming paying college athletes would inevitably lead to bidding wars and compromised academic standards without evidence.",
+            "Suggesting that minor monitoring inevitably leads to extreme privacy violations like data misuse."
+        ],
+        "sub_strategies": [
+            "Hasty Generalization",
+            "Ad Hominem",
+            "Confusing Correlation with Causation",
+            "Post Hoc Ergo Propter Hoc",
+            "Non Sequitur"
+        ]
+    },
+    {
+        "strategy_name": "Risk Amplification",
+        "description": "Exaggerating potential dangers or negative outcomes beyond evidence-based assessments to provoke fear or rejection.",
+        "examples": [
+            "Warning that lifespan extension would create 'immortal oligarchs' and 'biological caste systems' without proportional evidence.",
+            "Claiming geoengineering could cause irreversible catastrophic impacts on food/water supplies."
+        ],
+        "sub_strategies": [
+            "Catastrophizing",
+            "Worst-Case Scenario",
+            "Fear of Uncertainty"
+        ]
+    },
+    {
+        "strategy_name": "Data Manipulation Tactics",
+        "description": "Systematically distorting statistical information through selective presentation, contextual omission, or methodological flaws.",
+        "examples": [
+            "Citing a 5% welfare fraud rate including administrative errors while implying criminal activity.",
+            "Highlighting MIT disengagement rates for self-driving cars without comparing to human driver error rates."
+        ],
+        "sub_strategies": [
+            "Statistical Misdirection",
+            "Cherry-Picking Evidence",
+            "Outdated Statistics",
+            "Statistical Omission"
+        ]
+    },
+    {
+        "strategy_name": "Systemic Bias Appeals",
+        "description": "Exploiting or dismissing systemic inequalities and structural biases to support an argument.",
+        "examples": [
+            "Asserting credit scores are purely objective while ignoring how historical redlining affects financial behavior data.",
+            "Attributing racial disparities solely to 'socioeconomic factors' without examining systemic perpetuation."
+        ],
+        "sub_strategies": [
+            "False Objectivity",
+            "Systemic Minimization",
+            "Equity Distortion"
+        ]
+    },
+    {
+        "strategy_name": "Technological Solutionism",
+        "description": "Overstating technological capabilities or benefits while minimizing ethical dilemmas and implementation challenges.",
+        "examples": [
+            "Claiming AI companions provide 'genuine emotional support' without addressing risks of dependency or manipulation.",
+            "Asserting self-driving cars will 'dramatically reduce accidents' while ignoring edge-case failures."
+        ],
+        "sub_strategies": [
+            "Overpromising Benefits",
+            "False Certainty",
+            "Techno-Optimism"
+        ]
+    }
+]

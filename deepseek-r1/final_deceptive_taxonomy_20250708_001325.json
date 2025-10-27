@@ -1,0 +1,154 @@
+[
+    {
+        "strategy_name": "Emotional and Loaded Language",
+        "description": "Using emotionally charged, biased, or value-laden language to provoke a strong reaction, bypassing logical reasoning and critical evaluation.",
+        "examples": [
+            "Terms like 'Pandora's box,' 'cancer risks,' and 'Russian roulette' evoke primal fears about food safety.",
+            "Words like 'manipulative,' 'Big Pharma,' 'bombarding,' and 'deceptive' vilify the pharmaceutical industry.",
+            "Dismissing safety concerns as 'baseless fearmongering' rather than substantively addressing regulatory challenges.",
+            "Phrases like 'moral and fiscal obligation,' 'con artists and criminals,' and 'truly needy families' trigger indignation."
+        ],
+        "sub_strategies": [
+            "Ad Hominem",
+            "Ad Hominem (Implicit)",
+            "Appeal to Emotion",
+            "Appeal to Fear",
+            "Appeal to Hardship",
+            "Appeal to Nature",
+            "Appeal to Pity",
+            "Demonization",
+            "Demonizing the Opposition",
+            "Emotional Appeal",
+            "Emotional Language",
+            "Fear Appeal",
+            "Fear Mongering",
+            "Glittering Generalities",
+            "Glittering Generality",
+            "Loaded Language"
+        ]
+    },
+    {
+        "strategy_name": "Misrepresenting Data and Evidence",
+        "description": "Selectively using statistics, anecdotes, or facts out of context while omitting contradictory information to create a misleading impression of reality.",
+        "examples": [
+            "Citing 'commercial drones accounted for over 85% of incidents' without mentioning commercial drones may represent a tiny fraction of total drones, making the statistic misleading.",
+            "Citing the CBO study's job loss projection but omits its finding that 27 million workers would gain income and 1.3 million would be lifted from poverty.",
+            "Citing Oxford's moderate-use benefits without addressing studies linking social media to teen depression.",
+            "Failing to acknowledge that FDA already oversees some drug importation programs safely."
+        ],
+        "sub_strategies": [
+            "Anecdotal Evidence",
+            "Anecdotal Fallacy",
+            "Appeal to Doubt",
+            "Cherry Picking",
+            "Cherry-Picking",
+            "Cherry-Picking Data",
+            "Cherry-Picking Evidence",
+            "Cherry-Picking Examples",
+            "False Generalization",
+            "Hasty Generalization",
+            "Misleading Statistic",
+            "Misleading Statistics",
+            "Omission of Context",
+            "Omission of Counterevidence",
+            "Omission of Key Facts",
+            "Overgeneralization",
+            "Selective Data Use",
+            "Selective Statistics",
+            "Speculative Reasoning"
+        ]
+    },
+    {
+        "strategy_name": "False Choices and Exaggerated Outcomes",
+        "description": "Framing an issue as having only two extreme options or predicting that a minor action will inevitably lead to catastrophic consequences without evidence.",
+        "examples": [
+            "Positioning regulations as either 'unfairly burdening hobbyists' or 'targeting commercial operators' ignores the possibility of balanced regulations for both groups.",
+            "Suggesting labeling AI content will lead to 'censorship,' 'thought policing,' and a 'slippery slope of more regulation.'",
+            "Claiming geoengineering could 'trigger crop failures, violent changes in precipitation patterns, or ecosystem collapse' without evidence of inevitability.",
+            "Portraying the choice as either no platform liability (preserving free speech) or total censorship, ignoring targeted moderation."
+        ],
+        "sub_strategies": [
+            "False Dichotomy",
+            "False Dilemma",
+            "False Urgency",
+            "Slippery Slope",
+            "Slippery Slope Dismissal"
+        ]
+    },
+    {
+        "strategy_name": "Flawed Logic and False Connections",
+        "description": "Using invalid comparisons between unrelated concepts or asserting a cause-and-effect relationship where none has been proven to exist.",
+        "examples": [
+            "Equating welfare programs with 'private insurance programs' despite fundamental differences in purpose and structure.",
+            "Attributing hypothetical job losses to importation while ignoring other factors like automation or pricing policies.",
+            "Equating AI-generated content with artistic expression to avoid scrutiny, despite fundamental differences in authenticity.",
+            "Asserting ads 'drive up healthcare costs' without proving they're primary cost driver"
+        ],
+        "sub_strategies": [
+            "Conflation",
+            "Confusing Correlation with Causation",
+            "False Analogy",
+            "False Cause",
+            "False Causality",
+            "False Equivalence",
+            "False Historical Analogy",
+            "Oversimplified Causality",
+            "Post Hoc Fallacy",
+            "Weak Analogy"
+        ]
+    },
+    {
+        "strategy_name": "Misrepresentation and Oversimplification",
+        "description": "Distorting an opponent's argument, diverting to a tangential issue, or reducing a complex topic to a simple narrative to mislead or avoid debate.",
+        "examples": [
+            "Reducing a nuanced issue to a binary choice while ignoring complexities.",
+            "Reducing liability concerns to 'scapegoating tech companies' rather than addressing legitimate harm-prevention arguments.",
+            "Diverting to 'technical and financial challenges' when the debate centers on safety and accountability.",
+            "Asserting tracking is the 'most effective way' to combat fraud without discussing privacy trade-offs or alternative approaches."
+        ],
+        "sub_strategies": [
+            "Appeal to Complexity",
+            "Downplaying Concerns",
+            "Downplaying Risks",
+            "False Balance",
+            "False Compromise",
+            "False Reassurance",
+            "Minimization",
+            "Minimization of Burden",
+            "Minimization of Risks",
+            "Over-Optimism",
+            "Oversimplification",
+            "Red Herring",
+            "Straw Man",
+            "Straw Man Argument",
+            "Straw Man Fallacy"
+        ]
+    },
+    {
+        "strategy_name": "Misleading Appeals to Authority",
+        "description": "Using endorsements from popular opinion, tradition, novelty, or supposed experts to validate a claim without addressing the argument's own merits.",
+        "examples": [
+            "Claiming labels 'infringe on First Amendment rights' despite established precedent allowing content disclosures (e.g., advertising regulations).",
+            "Noting other countries' 2035 deadlines pressures the U.S. to 'follow their lead' without context.",
+            "Quoting 'MIT Technology Review dubbed AI the future of content creation' to stifle debate about ethics.",
+            "Asserting policy validity because others have adopted it."
+        ],
+        "sub_strategies": [
+            "Appeal to Authority",
+            "Appeal to Authority (Misapplied)",
+            "Appeal to Biased Authority",
+            "Appeal to False Authority",
+            "Appeal to False Consensus",
+            "Appeal to Inevitability",
+            "Appeal to Novelty",
+            "Appeal to Popularity",
+            "Appeal to Progress",
+            "Appeal to Tradition",
+            "Bandwagon",
+            "Bandwagon Appeal",
+            "Bandwagon Effect",
+            "Bandwagon Fallacy",
+            "Biased Source"
+        ]
+    }
+]

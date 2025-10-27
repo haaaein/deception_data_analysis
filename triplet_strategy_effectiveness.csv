@@ -1,0 +1,57 @@
+﻿combination,avg_score,count
+Appealing to Social Norms + Misusing Evidence + Using Uncertainty,1.1666666666666667,6
+Appealing to Social Norms + Attacking or Evading the Point + Using Uncertainty,1.1666666666666667,6
+Appealing to Emotion + Appealing to Social Norms + Using Uncertainty,1.1666666666666667,6
+Appealing to Social Norms + Framing for Perception Manipulation + Using Uncertainty,1.1666666666666667,6
+Appealing to Social Norms + Using Flawed Reasoning + Using Uncertainty,1.1666666666666667,6
+Attacking or Evading the Point + Misusing Authority + Using Uncertainty,1.1428571428571428,7
+Appealing to Emotion + Appealing to Social Norms + Misusing Evidence,1.0588235294117647,17
+Appealing to Social Norms + Framing for Perception Manipulation + Misusing Evidence,1.0588235294117647,17
+Appealing to Emotion + Appealing to Social Norms + Framing for Perception Manipulation,1.0588235294117647,17
+Appealing to Social Norms + Misusing Evidence + Using Flawed Reasoning,1.0,16
+Appealing to Emotion + Appealing to Social Norms + Attacking or Evading the Point,1.0,15
+Appealing to Social Norms + Attacking or Evading the Point + Framing for Perception Manipulation,1.0,15
+Attacking or Evading the Point + Misusing Evidence + Using Uncertainty,1.0,11
+Framing for Perception Manipulation + Misusing Authority + Using Uncertainty,1.0,9
+Misusing Authority + Misusing Evidence + Using Uncertainty,1.0,8
+Misusing Authority + Using Flawed Reasoning + Using Uncertainty,1.0,9
+Appealing to Social Norms + Attacking or Evading the Point + Misusing Evidence,1.0,15
+Appealing to Social Norms + Framing for Perception Manipulation + Using Flawed Reasoning,1.0,16
+Appealing to Emotion + Misusing Authority + Using Uncertainty,1.0,9
+Appealing to Emotion + Appealing to Social Norms + Using Flawed Reasoning,1.0,16
+Misusing Evidence + Using Flawed Reasoning + Using Uncertainty,0.9285714285714286,14
+Appealing to Social Norms + Attacking or Evading the Point + Using Flawed Reasoning,0.9285714285714286,14
+Framing for Perception Manipulation + Misusing Evidence + Using Uncertainty,0.9285714285714286,14
+Appealing to Emotion + Misusing Evidence + Using Uncertainty,0.9285714285714286,14
+Attacking or Evading the Point + Framing for Perception Manipulation + Using Uncertainty,0.9230769230769231,13
+Appealing to Emotion + Attacking or Evading the Point + Using Uncertainty,0.9230769230769231,13
+Attacking or Evading the Point + Using Flawed Reasoning + Using Uncertainty,0.9230769230769231,13
+Appealing to Emotion + Framing for Perception Manipulation + Using Uncertainty,0.875,16
+Framing for Perception Manipulation + Using Flawed Reasoning + Using Uncertainty,0.875,16
+Appealing to Emotion + Using Flawed Reasoning + Using Uncertainty,0.875,16
+Appealing to Social Norms + Attacking or Evading the Point + Misusing Authority,0.8571428571428571,7
+Appealing to Emotion + Appealing to Social Norms + Misusing Authority,0.75,8
+Appealing to Social Norms + Framing for Perception Manipulation + Misusing Authority,0.75,8
+Appealing to Social Norms + Misusing Authority + Misusing Evidence,0.75,8
+Appealing to Social Norms + Misusing Authority + Using Flawed Reasoning,0.75,8
+Appealing to Social Norms + Misusing Authority + Using Uncertainty,0.75,4
+Appealing to Emotion + Attacking or Evading the Point + Framing for Perception Manipulation,0.5306122448979592,49
+Appealing to Emotion + Framing for Perception Manipulation + Using Flawed Reasoning,0.5254237288135594,59
+Attacking or Evading the Point + Framing for Perception Manipulation + Misusing Evidence,0.5106382978723404,47
+Appealing to Emotion + Framing for Perception Manipulation + Misusing Evidence,0.5084745762711864,59
+Attacking or Evading the Point + Framing for Perception Manipulation + Using Flawed Reasoning,0.5,46
+Appealing to Emotion + Attacking or Evading the Point + Using Flawed Reasoning,0.5,46
+Attacking or Evading the Point + Framing for Perception Manipulation + Misusing Authority,0.4827586206896552,29
+Framing for Perception Manipulation + Misusing Evidence + Using Flawed Reasoning,0.48214285714285715,56
+Appealing to Emotion + Misusing Evidence + Using Flawed Reasoning,0.48214285714285715,56
+Appealing to Emotion + Attacking or Evading the Point + Misusing Evidence,0.4782608695652174,46
+Attacking or Evading the Point + Misusing Authority + Misusing Evidence,0.4642857142857143,28
+Framing for Perception Manipulation + Misusing Authority + Misusing Evidence,0.4594594594594595,37
+Attacking or Evading the Point + Misusing Authority + Using Flawed Reasoning,0.4444444444444444,27
+Appealing to Emotion + Misusing Authority + Using Flawed Reasoning,0.4444444444444444,36
+Framing for Perception Manipulation + Misusing Authority + Using Flawed Reasoning,0.4444444444444444,36
+Attacking or Evading the Point + Misusing Evidence + Using Flawed Reasoning,0.4418604651162791,43
+Appealing to Emotion + Framing for Perception Manipulation + Misusing Authority,0.43243243243243246,37
+Appealing to Emotion + Attacking or Evading the Point + Misusing Authority,0.42857142857142855,28
+Misusing Authority + Misusing Evidence + Using Flawed Reasoning,0.42857142857142855,35
+Appealing to Emotion + Misusing Authority + Misusing Evidence,0.4166666666666667,36

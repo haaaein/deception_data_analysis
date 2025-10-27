@@ -1,0 +1,14 @@
+{
+  "total_arguments": 280,
+  "total_versions": 5,
+  "total_strategies": 6,
+  "mean_strategies_per_argument": 3.5375268048606148,
+  "std_strategies_per_argument": 0.8788485129345559,
+  "mean_jaccard_index": 0.699201239866476,
+  "std_jaccard_index": 0.1993149612633121,
+  "complete_matches_percentage": 20.028612303290416,
+  "complete_mismatches_percentage": 0.035765379113018594,
+  "chi2_statistic": 15.631708360013953,
+  "chi2_p_value": 0.40694154625192674,
+  "cramers_v": 0.032447696238371196
+}
